@@ -1,6 +1,6 @@
 # [Nombre de tu emprendimiento] · Sitio WordPress
 
-> **Este README es tuyo.** Complétalo mientras construyes tu sitio y borra las instrucciones entre paréntesis. Las instrucciones del proyecto están en [`entregas/README.md`](entregas/README.md).
+> **Este README es tuyo.** Complétalo mientras construyes tu sitio y borra las instrucciones entre paréntesis. Las instrucciones del proyecto están en [`indicaciones/README.md`](indicaciones/README.md).
 
 - **Sitio en producción:** (URL de InfinityFree)
 - **Prototipo en Stitch:** (enlace)
@@ -26,7 +26,7 @@ Marca una opción y borra la otra sección de instrucciones.
 
 Cómo instalar mi tema en un WordPress limpio:
 
-1. **Descarga el tema:** (de dónde se baja el `.zip`, por ejemplo la carpeta `mi-tema/` comprimida o un *Release* de este repo).
+1. **Descarga el tema:** (de dónde se baja el `.zip`, por ejemplo la carpeta `proyecto/mi-tema/` comprimida o un *Release* de este repo).
 2. **Instálalo:** en WordPress, **Apariencia > Temas > Añadir nuevo > Subir tema**, elige el `.zip` y pulsa **Instalar ahora**.
 3. **Actívalo:** pulsa **Activar**.
 4. **Configura la portada:** **Ajustes > Lectura > Una página estática** y elige tu página de inicio.
@@ -109,12 +109,12 @@ El objetivo de este proyecto es que puedas **respaldar tu sitio y reinstalarlo e
 
 ## Cómo me organicé
 
-Mi plan y mi plan B están en [`decisiones.md`](decisiones.md). (Si cambiaste de rumbo, cuéntalo aquí en una o dos líneas.)
+Mi plan y mi plan B están en [`decisiones.md`](proyecto/decisiones.md) (si haces tema propio, está en `proyecto/documentacion/`). (Si cambiaste de rumbo, cuéntalo aquí en una o dos líneas.)
 
 ## Plan de continuidad y rendimiento
 
-- **Plan de continuidad (etapa 2 de mi web):** [`plan-de-continuidad.md`](plan-de-continuidad.md)
-- **Análisis de rendimiento con Lighthouse:** [`lighthouse.md`](lighthouse.md)
+- **Plan de continuidad (etapa 2 de mi web):** [`plan-de-continuidad.md`](proyecto/plan-de-continuidad.md)
+- **Análisis de rendimiento con Lighthouse:** [`lighthouse.md`](proyecto/lighthouse.md)
 
 ## Uso de IA
 

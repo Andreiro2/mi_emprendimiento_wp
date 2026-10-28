@@ -6,7 +6,7 @@ estimated_time: 40
 
 # Plantilla: `decisiones.md`
 
-Copia este contenido en un archivo `decisiones.md` en la raíz de tu repo y complétalo. Es la **Sumativa 2** (25 pts), y en el avance (18 nov) lo corriges. Sin informe largo.
+Copia este contenido en un archivo `decisiones.md` en la carpeta `proyecto/` de tu repo y complétalo. Es la **Sumativa 2** (25 pts), y en el avance (18 nov) lo corriges. Sin informe largo.
 
 ---
 

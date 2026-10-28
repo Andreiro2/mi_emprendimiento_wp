@@ -20,7 +20,7 @@ Antes de construir tu sitio, tienes que decidir **cómo** lo vas a construir. En
 
 ## Qué tienes que entregar
 
-Un archivo **`decisiones.md`** en la raíz de tu repo de GitHub y el enlace a tu repo por AVA. Parte de la plantilla `plantilla-decisiones.md` y complétala. No es un informe: son tablas y frases cortas.
+Un archivo **`decisiones.md`** en la carpeta `proyecto/` de tu repo de GitHub y el enlace a tu repo por AVA. Parte de la plantilla `plantilla-decisiones.md` y complétala. No es un informe: son tablas y frases cortas.
 
 Qué puedes usar: `docs/03-funcionalidades.md` de tu repo `mi-emprendimiento`, la guía `guia-investigar-plugins.md` y las páginas que planteaste en el Parcial 02. También puedes usar IA para ordenar o redactar, pero **tienes que verificar los datos** y poder explicar tus decisiones si te lo pido.
 
@@ -107,4 +107,4 @@ Escribe riesgos de **tu** proyecto: copiar estos sin adaptarlos vale menos.
 - [ ] Mi carta Gantt va del 5 al 25 de noviembre y marca el avance y la entrega final.
 - [ ] Escribí el nombre del tema y si es custom o descargado.
 - [ ] Mi plan B tiene al menos 3 riesgos, cada uno con qué hago y cuándo.
-- [ ] El archivo se llama `decisiones.md`, está en mi repo y entregué el enlace por AVA.
+- [ ] El archivo se llama `decisiones.md`, está en `proyecto/` de mi repo y entregué el enlace por AVA.

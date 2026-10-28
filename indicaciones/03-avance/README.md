@@ -1,6 +1,6 @@
 # Entrega 3 · Avance (30 pts)
 
-**Entrega:** la URL de tu sitio en InfinityFree y tu `decisiones.md` corregido, por AVA.
+**Entrega:** la URL de tu sitio en InfinityFree y tu `decisiones.md` corregido (en `proyecto/`), por AVA.
 **Fecha:** miércoles 18 de noviembre, hasta el término de la clase. **Peso:** 30% de la Evaluación 03 (1 punto = 1%).
 **Para qué:** recibir correcciones antes de la entrega final y revisar si tu plan se sostiene o hay que cambiarlo.
 

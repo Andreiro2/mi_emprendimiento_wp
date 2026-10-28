@@ -1,6 +1,6 @@
 # Plantilla: `lighthouse.md`
 
-Copia este contenido en un archivo `lighthouse.md` en la raíz de tu repo y complétalo. Vale **6 puntos** en la Entrega final.
+Copia este contenido en un archivo `lighthouse.md` en la carpeta `proyecto/` de tu repo y complétalo. Vale **6 puntos** en la Entrega final.
 
 ---
 

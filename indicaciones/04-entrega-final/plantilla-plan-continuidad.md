@@ -1,6 +1,6 @@
 # Plantilla: `plan-de-continuidad.md`
 
-Copia este contenido en un archivo `plan-de-continuidad.md` en la raíz de tu repo y complétalo. Vale **10 puntos** en la Entrega final.
+Copia este contenido en un archivo `plan-de-continuidad.md` en la carpeta `proyecto/` de tu repo y complétalo. Vale **10 puntos** en la Entrega final.
 
 ---
 

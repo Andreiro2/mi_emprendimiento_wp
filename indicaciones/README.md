@@ -16,13 +16,36 @@ No se trata solo de levantar un sitio. En este proyecto aprendes a:
 
 | Carpeta o archivo | Qué es | ¿Lo editas? |
 |---|---|---|
-| `entregas/` (esta carpeta) | Una carpeta por entrega, con su pauta y sus guías | **No**: es la instrucción. El docente puede actualizarla. |
-| [`tema-base/`](../tema-base/README.md) | Tema de WordPress en blanco para partir | **No**: cópialo a `mi-tema/` y trabaja ahí. |
+| `indicaciones/` (esta carpeta) | Una carpeta por entrega, con su pauta y sus guías | **No**: es la instrucción. El docente puede actualizarla. |
+| [`tema-base/`](../tema-base/README.md) | Tema de WordPress en blanco para partir | **No**: cópialo a `proyecto/` y trabaja ahí. |
 | [`README.md`](../README.md) (raíz) | El README **de tu proyecto**: contexto de tu sitio e instrucciones para instalarlo | **Sí**: lo completas tú (ver abajo). |
-| `decisiones.md` | Tu documento de decisiones (Sumativa 2) | **Sí**: lo creas tú desde la plantilla. |
-| `mi-tema/` | Tu propio tema, si decides hacerlo | **Sí**: lo creas tú copiando `tema-base/`. |
+| [`proyecto/`](../proyecto/) | Carpeta vacía donde van **todos tus archivos**: tus `.md` y, si haces tema propio, tu tema | **Sí**: la llenas tú. |
 
-> **Regla para que no se te enrede el repo:** no modifiques `entregas/` ni `tema-base/`. Así, cuando se actualice el material, puedes traer los cambios sin conflictos. Tu trabajo va en el `README.md` de la raíz, en `decisiones.md`, en `mi-tema/` y en archivos nuevos que crees tú.
+> **Regla para que no se te enrede el repo:** no modifiques `indicaciones/` ni `tema-base/`. Así, cuando se actualice el material, puedes traer los cambios sin conflictos. Tu trabajo va en `proyecto/` y en el `README.md` de la raíz.
+
+## Dónde va cada archivo
+
+**Todos** crean sus archivos `.md` en la carpeta `proyecto/`, a partir de las plantillas de cada entrega:
+
+```
+proyecto/
+├── decisiones.md            (Entrega 2, y lo corriges en la 3)
+├── plan-de-continuidad.md   (Entrega 4)
+└── lighthouse.md            (Entrega 4)
+```
+
+**Si logras crear tu tema propio**, dentro de `proyecto/` armas dos carpetas:
+
+```
+proyecto/
+├── documentacion/           (mueves aquí tus .md: decisiones, plan de continuidad y lighthouse)
+│   ├── decisiones.md
+│   ├── plan-de-continuidad.md
+│   └── lighthouse.md
+└── mi-tema/                 (tu tema, copiado desde tema-base/)
+```
+
+Para mover los archivos usa `git mv`, así no pierdes su historial. Si usas un tema descargado, tus `.md` se quedan directamente en `proyecto/`.
 
 ## Tu propio README
 
@@ -37,7 +60,7 @@ El `README.md` de la raíz del repo **es tuyo**: ahí explicas tu proyecto. Ya t
 
 Se completa a medida que construyes. El docente no modificará el `README.md` de la raíz después de que lo copies, para que no haya conflictos al sincronizar.
 
-## Las entregas
+## Las entregas y sus indicaciones
 
 Todo el trabajo es **individual**. Los puntos coinciden con el porcentaje: 15 + 25 + 30 + 30 = 100.
 
@@ -76,7 +99,7 @@ git merge upstream/main
 
 Lo de `git remote add upstream` se hace una sola vez. Después basta con `git fetch upstream` y `git merge upstream/main`.
 
-**Si hay conflictos:** casi siempre es porque editaste algo dentro de `entregas/` o `tema-base/`. Vuelve a la versión del docente con `git checkout upstream/main -- ruta/del/archivo`, y pasa tus cambios a `decisiones.md` o a `mi-tema/`.
+**Si hay conflictos:** casi siempre es porque editaste algo dentro de `indicaciones/` o `tema-base/`. Vuelve a la versión del docente con `git checkout upstream/main -- ruta/del/archivo`, y pasa tus cambios a tus archivos dentro de `proyecto/`.
 
 ## Reglas
 

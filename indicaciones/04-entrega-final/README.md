@@ -1,6 +1,6 @@
 # Entrega 4 · Entrega final (30 pts)
 
-**Entrega:** la URL de tu sitio en producción, el enlace a tu repo, y tus archivos `lighthouse.md` y `plan-de-continuidad.md`, por AVA.
+**Entrega:** la URL de tu sitio en producción, el enlace a tu repo, y tus archivos `lighthouse.md` y `plan-de-continuidad.md` (en `proyecto/`), por AVA.
 **Fecha:** miércoles 25 de noviembre, hasta el término de la clase. **Peso:** 30% de la Evaluación 03 (1 punto = 1%).
 **Revisión previa:** martes 24 de noviembre, en clase y sin nota. Llegas con el sitio publicado, resolvemos problemas de despliegue y pruebas el formulario con un mensaje de prueba.
 
@@ -24,7 +24,7 @@ Cerrar la primera etapa de tu web, dejarla lista para migrar a un servidor profe
 
 ## 1. Plan de continuidad (10 pts)
 
-Es la segunda etapa de tu web. Créalo en la raíz de tu repo como `plan-de-continuidad.md`, desde la plantilla [`plantilla-plan-continuidad.md`](plantilla-plan-continuidad.md).
+Es la segunda etapa de tu web. Créalo en la carpeta `proyecto/` de tu repo como `plan-de-continuidad.md`, desde la plantilla [`plantilla-plan-continuidad.md`](plantilla-plan-continuidad.md).
 
 - **Funcionalidades de la etapa 2 y por qué quedaron fuera (3):** qué quisiste hacer y no pudiste (por ejemplo, WooCommerce, reservas, un newsletter), y la razón: tiempo, recursos, costo o conocimientos.
 - **Recursos que necesitas (3):** plugins (gratis o de pago), hosting o servidor, costos y lo que tendrías que aprender.
@@ -37,11 +37,11 @@ El formulario se prueba enviando un **mensaje de prueba**. Debe llegar al correo
 
 ## 3. README del proyecto (6 pts)
 
-Es el `README.md` de la raíz de tu repo. Otra persona debe poder seguir tus pasos para **respaldar tu sitio y reinstalarlo en cualquier servidor**. Explica el contexto de tu web, sus requisitos (WordPress, PHP, tema y plugins), cómo respaldar y cómo reinstalar.
+Es el `README.md` de la raíz de tu repo (el único archivo tuyo que no va en `proyecto/`). Otra persona debe poder seguir tus pasos para **respaldar tu sitio y reinstalarlo en cualquier servidor**. Explica el contexto de tu web, sus requisitos (WordPress, PHP, tema y plugins), cómo respaldar y cómo reinstalar.
 
 ## 4. Análisis con Lighthouse (6 pts)
 
-Lighthouse mide el rendimiento de tu sitio. Entregas el resultado y tu análisis en `lighthouse.md`, desde la plantilla [`plantilla-lighthouse.md`](plantilla-lighthouse.md).
+Lighthouse mide el rendimiento de tu sitio. Entregas el resultado y tu análisis en `proyecto/lighthouse.md`, desde la plantilla [`plantilla-lighthouse.md`](plantilla-lighthouse.md).
 
 - **Cómo ejecutarlo:** en Chrome, abre tu sitio en producción, entra a las herramientas de desarrollador (F12) y busca la pestaña **Lighthouse**. También puedes usar [PageSpeed Insights](https://pagespeed.web.dev/). Analiza tu página de inicio en **móvil**.
 - **Informe ejecutado (2):** las cuatro categorías (Rendimiento, Accesibilidad, Buenas prácticas y SEO) con su puntaje y una captura o el enlace del informe.

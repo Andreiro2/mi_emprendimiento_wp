@@ -18,10 +18,16 @@ Un tema propio, pequeño, que se ve como tu emprendimiento y está **activo en t
 
 ## Qué necesitas
 
-- Tu repo creado desde la plantilla `mi-tema-wordpress` (botón "Use this template" en GitHub).
+- Tu fork de este repo, con `tema-base/` copiado a **`proyecto/mi-tema/`** (no edites `tema-base/`).
 - Antigravity con la carpeta del tema abierta.
 - Tu `DESIGN.md` y tu prototipo de Stitch.
 - Un sitio local (Local WP) para probar y tu sitio de InfinityFree para publicar.
+
+## Dónde guardar todo
+
+- Tu tema va en **`proyecto/mi-tema/`**, copiado desde `tema-base/`.
+- Cuando tu tema propio ya funcione, crea también **`proyecto/documentacion/`** y mueve ahí tus `.md` (`decisiones.md`, `plan-de-continuidad.md` y `lighthouse.md`) con `git mv`.
+- Si al final no logras tu tema propio y pasas a uno descargado, tus `.md` se quedan directamente en `proyecto/`.
 
 ## Los archivos de tu tema
 

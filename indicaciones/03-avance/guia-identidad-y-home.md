@@ -15,7 +15,7 @@ estimated_time: 20
 
 ## Qué necesitas tener a mano
 
-- Tu tema base activo y funcionando, con su carpeta `mi-tema/`.
+- Tu tema base activo y funcionando, en la carpeta `proyecto/mi-tema/`.
 - Tu repo `mi-emprendimiento`, con tu `DESIGN.md` (colores, tipografías, espaciados) y las pantallas de tu prototipo en Stitch, sobre todo el home.
 - Antigravity abierto con la carpeta de tu tema.
 
