@@ -37,3 +37,4 @@ Un sitio terminado, en producción y listo para migrar a un servidor profesional
 - [ ] Están mis 5 páginas, con contenido y en el menú.
 - [ ] El formulario muestra confirmación y el mensaje de prueba llegó a mi correo.
 - [ ] Están mis 3 entradas del blog.
+- [ ] Mi `README.md` de la raíz está completo: contexto, instrucciones de instalación o de migración, plugins y uso de IA.

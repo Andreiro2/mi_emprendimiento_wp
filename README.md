@@ -1,72 +1,95 @@
-# Mi emprendimiento en WordPress
+# [Nombre de tu emprendimiento] · Sitio WordPress
 
-> Proyecto de la **Evaluación 03 — Sitios Web y Landing Pages (MKA1203, DUOC)**. Parte de tu repo `mi-emprendimiento` del Parcial 02 y lo convierte en un sitio WordPress en producción.
+> **Este README es tuyo.** Complétalo mientras construyes tu sitio y borra las instrucciones entre paréntesis. Las instrucciones del proyecto están en [`entregas/README.md`](entregas/README.md).
 
-## Qué vas a lograr
+- **Sitio en producción:** (URL de InfinityFree)
+- **Prototipo en Stitch:** (enlace)
+- **Repo del Parcial 02:** (enlace a `mi-emprendimiento`)
+- **Autor/a:** (nombre y sección)
 
-No se trata solo de levantar un sitio. En este proyecto aprendes a:
+## Contexto de la web
 
-- **Organizarte:** decides qué vas a construir y en qué tiempos, con una carta Gantt.
-- **Planificar:** eliges plugins, páginas y tema a partir de las funcionalidades de tu emprendimiento.
-- **Mitigar riesgos:** escribes un plan B para cuando algo no funciona y lo usas si hace falta.
+(3 a 5 líneas: qué es tu emprendimiento, a quién le vende, qué problema resuelve el sitio y qué quieres que haga la persona cuando llega. Apóyate en tu proto-persona y tu brief del Parcial 02.)
 
-**La meta:** al terminar, tienes un sitio WordPress **en producción, funcional y listo para migrar a un servidor profesional**.
+## Mi tema
 
-## Cómo está organizado este repo
+Marca una opción y borra la otra sección de instrucciones.
 
-| Carpeta o archivo | Qué es | ¿Lo editas? |
-|---|---|---|
-| [`entregas/`](entregas/) | Una carpeta por entrega, con su pauta y sus guías | **No**: es la instrucción. El docente puede actualizarla. |
-| [`tema-base/`](tema-base/README.md) | Tema de WordPress en blanco para partir | **No**: cópialo a `mi-tema/` y trabaja ahí. |
-| `decisiones.md` | Tu documento de decisiones (Sumativa 2) | **Sí**: lo creas tú desde la plantilla. |
-| `mi-tema/` | Tu propio tema, si decides hacerlo | **Sí**: lo creas tú copiando `tema-base/`. |
+- [ ] **Tema propio:** `(nombre del tema)`
+- [ ] **Tema descargado:** `(nombre del tema)` · (enlace a su ficha)
 
-> **Regla para que no se te enrede el repo:** no modifiques `entregas/` ni `tema-base/`. Así, cuando se actualice el material, puedes traer los cambios sin conflictos. Tu trabajo va en `decisiones.md`, en `mi-tema/` y en archivos nuevos que crees tú.
+---
 
-## Las entregas
+## Instrucciones si uso un tema propio
 
-Todo el trabajo es **individual**. Los puntos coinciden con el porcentaje: 15 + 25 + 30 + 30 = 100.
+*(Borra esta sección si usas un tema descargado.)*
 
-| # | Entrega | Fecha | Puntos | Carpeta |
-|---|---|---|---|---|
-| 1 | Publica tu sitio | Vie 30 oct | 15 | [`entregas/01-publica-tu-sitio`](entregas/01-publica-tu-sitio/README.md) |
-| 2 | Decisiones de tu sitio | Mié 4 nov | 25 | [`entregas/02-decisiones`](entregas/02-decisiones/README.md) |
-| 3 | Avance | Mié 18 nov | 30 | [`entregas/03-avance`](entregas/03-avance/README.md) |
-| 4 | Entrega final | Mié 25 nov | 30 | [`entregas/04-entrega-final`](entregas/04-entrega-final/README.md) |
+Cómo instalar mi tema en un WordPress limpio:
 
-La construcción de tu sitio va del **jueves 5 al miércoles 25 de noviembre**. El martes 24 hay una revisión final en clase, sin nota.
+1. **Descarga el tema:** (de dónde se baja el `.zip`, por ejemplo la carpeta `mi-tema/` comprimida o un *Release* de este repo).
+2. **Instálalo:** en WordPress, **Apariencia > Temas > Añadir nuevo > Subir tema**, elige el `.zip` y pulsa **Instalar ahora**.
+3. **Actívalo:** pulsa **Activar**.
+4. **Configura la portada:** **Ajustes > Lectura > Una página estática** y elige tu página de inicio.
+5. **Crea el menú:** **Apariencia > Menús**, con tus páginas, y asígnalo a «Menú principal».
+6. **Instala los plugins** que necesita (ver tabla de abajo).
+7. **Crea las páginas y entradas** (ver más abajo).
 
-## Cómo empezar
+Qué debe tener el servidor: (versión de WordPress y de PHP con que probaste tu tema).
 
-1. **Haz un fork** de este repo a tu cuenta de GitHub (botón *Fork*).
-2. Clona tu fork en tu computador.
-3. Lee la pauta de la entrega que corresponde.
+---
 
-## Cómo traer las actualizaciones del docente
+## Instrucciones si uso un tema descargado
 
-Si el docente actualiza este repo, tu fork no se entera solo. Para traer los cambios:
+*(Borra esta sección si usas un tema propio.)*
 
-**Opción A · desde GitHub (la más simple):**
+### Requisitos del tema
 
-1. Entra a tu fork en GitHub.
-2. Si dice que tu rama está atrasada, pulsa **Sync fork** y luego **Update branch**.
-3. En tu computador, ejecuta `git pull`.
+| Dato | Mi tema |
+|---|---|
+| Nombre y enlace a la ficha | |
+| Gratis o de pago | |
+| Tipo (clásico o de bloques) | |
+| Versión de WordPress que requiere | |
+| Versión de PHP que requiere | |
+| Plugins que necesita (si alguno) | |
+| Licencia | |
 
-**Opción B · desde la terminal:**
+### Cómo llevar mi sitio de Local a producción
 
-```bash
-git remote add upstream https://github.com/carocromatica/mi_emprendimiento_wp.git
-git fetch upstream
-git merge upstream/main
-```
+Explica cómo exportas los datos de tu sitio en Local WP y los importas en producción (InfinityFree) con un plugin. Completa:
 
-Lo de `git remote add upstream` se hace una sola vez. Después basta con `git fetch upstream` y `git merge upstream/main`.
+- **Plugin de migración que uso:** (nombre y enlace a su ficha). Gratis o de pago: (...). Límites que tiene: (por ejemplo, tamaño máximo de importación).
+- **Qué se exporta:** (entradas, páginas, imágenes, menús, configuración).
 
-**Si hay conflictos:** casi siempre es porque editaste algo dentro de `entregas/` o `tema-base/`. Vuelve a la versión del docente con `git checkout upstream/main -- ruta/del/archivo`, y pasa tus cambios a `decisiones.md` o a `mi-tema/`.
+Pasos:
 
-## Reglas
+1. **En Local:** (cómo exportas, con el plugin).
+2. **En producción:** (instalas un WordPress limpio, instalas el mismo plugin y el mismo tema).
+3. **Importa:** (cómo cargas el archivo que exportaste).
+4. **Revisa:** enlaces permanentes, menú, página de inicio, imágenes y formulario de contacto.
+5. **Problemas que tuve y cómo los resolví:** (...).
 
-- La documentación es en **Markdown** (`.md`).
-- Puedes usar IA y tutoriales, pero debes poder explicar lo que entregas.
-- **Cambiar de idea no se penaliza** si lo documentas (ver la entrega 3).
-- Un cambio a la vez; si funciona, haces commit.
+---
+
+## Plugins instalados
+
+| Plugin | Para qué lo uso | Gratis o de pago | Versión |
+|---|---|---|---|
+| (SEO) | | | |
+| (Contacto) | | | |
+| | | | |
+| | | | |
+| | | | |
+
+## Páginas y entradas
+
+- **Páginas:** (las 5 de la fase 1)
+- **Entradas del blog:** (títulos de tus 3 entradas)
+
+## Cómo me organicé
+
+Mi plan y mi plan B están en [`decisiones.md`](decisiones.md). (Si cambiaste de rumbo, cuéntalo aquí en una o dos líneas.)
+
+## Uso de IA
+
+- **(Herramienta):** para qué la usé y qué ajusté yo.
