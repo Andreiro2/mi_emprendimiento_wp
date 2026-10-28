@@ -7,7 +7,7 @@
 
 ## Qué tienes que lograr
 
-Un sitio terminado, en producción y listo para migrar a un servidor profesional, con **5 páginas**, tus **3 entradas** y un **formulario de contacto que funcione**.
+Un sitio terminado, en producción y listo para migrar a un servidor profesional, con **5 páginas**, un **formulario de contacto que funcione** y un **README** que documente tu proyecto. El objetivo es que sepas **respaldar tu proyecto y reinstalarlo en cualquier servidor**.
 
 ## Cómo se evalúa
 
@@ -16,14 +16,14 @@ Un sitio terminado, en producción y listo para migrar a un servidor profesional
 | Sitio en producción, con tema y diseño coherentes con tu `decisiones.md` | 6 | Tema activo y coherente (3) · abre sin errores y se ve bien en celular (3) |
 | Las 5 páginas mínimas, con contenido y en el menú | 10 | 2 por página: contenido (1) y en el menú (1) |
 | Formulario de contacto funcionando | 8 | Aparece en Contacto (2) · tiene nombre, correo y mensaje (2) · muestra confirmación al enviar (2) · el mensaje llega al correo configurado (2) |
-| 3 entradas del blog con texto | 6 | 2 por entrada |
+| README del proyecto: documentación para respaldar y reinstalar | 6 | Contexto y requisitos (2) · cómo respaldar (2) · cómo reinstalar en otro servidor (2) |
 | **Total** | **30** | |
 
 ## Reglas
 
 - Las 5 páginas son las que elegiste en la entrega 2, o las que corregiste en el avance. Una de ellas es Contacto.
 - El formulario se prueba enviando un **mensaje de prueba**.
-- Tus 3 entradas del avance siguen vigentes.
+- Tu README es el de la raíz del repo. Otra persona debe poder seguir tus pasos y dejar el sitio funcionando en un servidor nuevo.
 - El aviso de «no seguro» y los errores 500 o 429 de InfinityFree no se descuentan.
 
 ## Guía de esta entrega
@@ -36,5 +36,5 @@ Un sitio terminado, en producción y listo para migrar a un servidor profesional
 - [ ] Mi tema está activo y es coherente con mi `decisiones.md`.
 - [ ] Están mis 5 páginas, con contenido y en el menú.
 - [ ] El formulario muestra confirmación y el mensaje de prueba llegó a mi correo.
-- [ ] Están mis 3 entradas del blog.
-- [ ] Mi `README.md` de la raíz está completo: contexto, instrucciones de instalación o de migración, plugins y uso de IA.
+- [ ] Mi `README.md` explica el contexto de mi web, sus requisitos (WordPress, PHP, tema y plugins), cómo respaldar el sitio y cómo reinstalarlo en otro servidor.
+- [ ] Probé mis propios pasos de reinstalación (o los revisé con un compañero) y funcionan.

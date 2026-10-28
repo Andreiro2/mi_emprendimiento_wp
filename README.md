@@ -71,6 +71,27 @@ Pasos:
 
 ---
 
+## Respaldo y reinstalación en otro servidor
+
+El objetivo de este proyecto es que puedas **respaldar tu sitio y reinstalarlo en cualquier servidor**. Explícalo para que otra persona pueda seguir tus pasos.
+
+**Qué respaldar:**
+
+- Los archivos de WordPress (tema, plugins, imágenes subidas).
+- La base de datos (páginas, entradas, menús, configuración).
+
+**Cómo respaldo mi sitio:** (plugin o método que usas, por ejemplo BackWPup o tu plugin de migración; dónde queda el archivo; cada cuánto lo haces).
+
+**Cómo lo reinstalo en un servidor nuevo:**
+
+1. **Requisitos del servidor:** (versión de PHP, de MySQL y de WordPress; espacio necesario).
+2. **Instalar WordPress limpio:** (cómo).
+3. **Restaurar el respaldo:** (cómo lo cargas con tu plugin).
+4. **Ajustar:** (enlaces permanentes, URL del sitio, menú y página de inicio).
+5. **Probar:** (qué revisas para saber que quedó bien: sitio, imágenes, formulario de contacto con un mensaje de prueba).
+
+**Problemas que tuve y cómo los resolví:** (...)
+
 ## Plugins instalados
 
 | Plugin | Para qué lo uso | Gratis o de pago | Versión |

@@ -32,7 +32,8 @@ El `README.md` de la raíz del repo **es tuyo**: ahí explicas tu proyecto. Ya t
 2. **Instrucciones para instalarlo**, según lo que elegiste:
    - **Tema propio:** cómo instalar tu tema en WordPress.
    - **Tema descargado:** qué requisitos tiene el tema y cómo exportar los datos de Local a producción con plugins.
-3. **Plugins y páginas** de tu sitio, y **cómo usaste IA**.
+3. **Respaldo y reinstalación:** cómo respaldar tu sitio y reinstalarlo en cualquier servidor. Es el objetivo del proyecto.
+4. **Plugins y páginas** de tu sitio, y **cómo usaste IA**.
 
 Se completa a medida que construyes. El docente no modificará el `README.md` de la raíz después de que lo copies, para que no haya conflictos al sincronizar.
 
