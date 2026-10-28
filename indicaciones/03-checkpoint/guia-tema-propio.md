@@ -107,9 +107,9 @@ Si hay un error, pega el mensaje exacto y el archivo, y pide solo la corrección
 Señales de que conviene cambiar:
 - Llevas dos sesiones sin avanzar en lo mismo.
 - No logras volver a un estado que funciona.
-- Estás a una semana del avance y el tema no está activo en InfinityFree.
+- Estás a una semana del checkpoint y el tema no está activo en InfinityFree.
 
-Antes de decidir, vuelve al último commit que funcionaba y prueba una vez más con un pedido más pequeño. Si sigue sin resultar, pasa a un tema descargado (guía `guia-tema-descargado.md`) y documenta el cambio en `decisiones.md`. **Pivotear no baja tu nota** si lo documentas, pero después del avance (18 nov) solo con acuerdo previo.
+Antes de decidir, vuelve al último commit que funcionaba y prueba una vez más con un pedido más pequeño. Si sigue sin resultar, pasa a un tema descargado (guía `guia-tema-descargado.md`) y documenta el cambio en `decisiones.md`. **Pivotear no baja tu nota** si lo documentas, pero después del checkpoint (18 nov) solo con acuerdo previo.
 
 ## Qué debes tener al terminar
 

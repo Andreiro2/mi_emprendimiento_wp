@@ -1,12 +1,12 @@
-# Entrega 3 · Avance (30 pts) · Mié 18 de noviembre
+# Entrega 3 · Checkpoint (30 pts) · Mié 18 de noviembre
 
 **Entrega:** la URL de tu sitio en InfinityFree y tu `decisiones.md` corregido (en `proyecto/`), por AVA.
 **Fecha:** miércoles 18 de noviembre, hasta el término de la clase. **Peso:** 30% de la Evaluación 03 (1 punto = 1%).
-**Para qué:** recibir correcciones antes de la entrega final y revisar si tu plan se sostiene o hay que cambiarlo.
+**Para qué:** es un punto de control. Verificamos **el estado de tu sitio: si funciona o no**, y si tu plan se sostiene o hay que cambiarlo, a tiempo para corregir antes de la entrega final.
 
 ## Qué tienes que lograr
 
-Tener tu sitio en producción con el tema que elegiste (propio o descargado), con tus páginas **Inicio** y **Contacto** y 3 entradas, y dejar tu `decisiones.md` al día.
+Mostrar que tu sitio **funciona**: en producción, con el tema que elegiste (propio o descargado), con tus páginas **Inicio** y **Contacto** y 3 entradas, y dejar tu `decisiones.md` al día.
 
 ## Cómo se evalúa
 
@@ -23,8 +23,8 @@ Tener tu sitio en producción con el tema que elegiste (propio o descargado), co
 - Agrega a tu `decisiones.md` la sección **«Cambios respecto de la Sumativa 2»**: qué mantuviste, qué cambiaste y por qué. Si no cambió nada, lo dices igual.
 - Si probaste algo y no resultó (un plugin, el tema propio), muéstralo: una captura o un commit sirven de evidencia.
 - **Pivotear no se penaliza.** Lo que baja el puntaje es un documento desactualizado o un sitio que no coincide con lo que declaras.
-- Si tu tema propio no funcionó, el avance se cumple con un tema descargado activo. Lo que importa es que haya un tema en producción.
-- Después del avance, cambiar de rumbo solo con acuerdo previo.
+- Si tu tema propio no funcionó, el checkpoint se cumple con un tema descargado activo. Lo que importa es que haya un tema en producción.
+- Después del checkpoint, cambiar de rumbo solo con acuerdo previo.
 
 ## Guías de esta entrega
 

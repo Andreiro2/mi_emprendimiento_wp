@@ -68,7 +68,7 @@ Todo el trabajo es **individual**. Los puntos coinciden con el porcentaje: 15 + 
 |---|---|---|---|---|
 | 1 | Publica tu sitio | Vie 30 oct | 15 | [`01-publica-tu-sitio`](01-publica-tu-sitio/README.md) |
 | 2 | Decisiones de tu sitio | Mié 4 nov | 25 | [`02-decisiones`](02-decisiones/README.md) |
-| 3 | Avance | Mié 18 nov | 30 | [`03-avance`](03-avance/README.md) |
+| 3 | Checkpoint | Mié 18 nov | 30 | [`03-checkpoint`](03-checkpoint/README.md) |
 | 4 | Entrega final | Mié 25 nov | 30 | [`04-entrega-final`](04-entrega-final/README.md) |
 
 La construcción de tu sitio va del **jueves 5 al miércoles 25 de noviembre**. El martes 24 hay una revisión final en clase, sin nota.

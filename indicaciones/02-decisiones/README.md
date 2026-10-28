@@ -63,7 +63,7 @@ Las páginas que no elijas quedan para una fase posterior; anótalas.
 
 ### 3. Plan del tema (5 pts)
 
-- **Carta Gantt (3 pts):** una tabla o un diagrama con las etapas de tu sitio entre el **5 y el 25 de noviembre**: identidad visual, home, páginas, plugins y ajustes. Marca el **avance** (miércoles 18) y la **entrega final** (miércoles 25). La plantilla trae una tabla y un ejemplo en Mermaid.
+- **Carta Gantt (3 pts):** una tabla o un diagrama con las etapas de tu sitio entre el **5 y el 25 de noviembre**: identidad visual, home, páginas, plugins y ajustes. Marca el **checkpoint** (miércoles 18) y la **entrega final** (miércoles 25). La plantilla trae una tabla y un ejemplo en Mermaid.
 - **Nombre del tema (1 pt):** elige el nombre de tu tema.
 - **Custom o descargado (1 pt):** define cuál será y por qué en una línea. Si no estás seguro, elige uno y anota en el plan B cuándo cambiarías.
 
@@ -89,7 +89,7 @@ Escribe riesgos de **tu** proyecto: copiar estos sin adaptarlos vale menos.
 
 - La tarea es **individual**.
 - Todo dato de un plugin debe estar confirmado en su ficha oficial. La IA a veces inventa plugins o da datos viejos.
-- **Cambiar de idea después no te penaliza.** En el avance (miércoles 18) corriges este mismo documento.
+- **Cambiar de idea después no te penaliza.** En el checkpoint (miércoles 18) corriges este mismo documento.
 - Entrega al término de la clase del miércoles 4 de noviembre.
 
 ## Antes de entregar, revisa
@@ -98,7 +98,7 @@ Escribe riesgos de **tu** proyecto: copiar estos sin adaptarlos vale menos.
 - [ ] Cada plugin tiene los 5 datos y el enlace a su ficha.
 - [ ] Hay 5 páginas, con Inicio y Contacto, y ninguna es del carro de compras.
 - [ ] Cada página tiene una línea de por qué la elegí.
-- [ ] Mi carta Gantt va del 5 al 25 de noviembre y marca el avance y la entrega final.
+- [ ] Mi carta Gantt va del 5 al 25 de noviembre y marca el checkpoint y la entrega final.
 - [ ] Escribí el nombre del tema y si es custom o descargado.
 - [ ] Mi plan B tiene al menos 3 riesgos, cada uno con qué hago y cuándo.
 - [ ] El archivo se llama `decisiones.md`, está en `proyecto/` de mi repo y entregué el enlace por AVA.

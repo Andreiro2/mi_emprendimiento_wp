@@ -1,6 +1,6 @@
 # Plantilla: `decisiones.md`
 
-Copia este contenido en un archivo `decisiones.md` en la carpeta `proyecto/` de tu repo y complétalo. Es la **Sumativa 2** (25 pts), y en el avance (18 nov) lo corriges. Sin informe largo.
+Copia este contenido en un archivo `decisiones.md` en la carpeta `proyecto/` de tu repo y complétalo. Es la **Sumativa 2** (25 pts), y en el checkpoint (18 nov) lo corriges. Sin informe largo.
 
 ---
 
@@ -47,7 +47,7 @@ Al menos **5 plugins**, cada uno vale 2 pts. **SEO** y **contacto** son obligato
 | Home | | | |
 | Páginas | | | |
 | Plugins | | | |
-| **Avance (18 nov)** | | 18 nov | |
+| **Checkpoint (18 nov)** | | 18 nov | |
 | Ajustes y formulario | | | |
 | **Entrega final (25 nov)** | | 25 nov | |
 
@@ -64,7 +64,7 @@ gantt
     section Contenido
     Páginas          :2026-11-12, 5d
     Plugins          :2026-11-14, 4d
-    Avance           :milestone, 2026-11-18, 0d
+    Checkpoint           :milestone, 2026-11-18, 0d
     Ajustes          :2026-11-19, 6d
     Entrega final    :milestone, 2026-11-25, 0d
 ```
@@ -80,7 +80,7 @@ Qué hago si algo no funciona. **Al menos 3 riesgos**, cada uno con su mitigaci�
 | Un plugin falla o no es compatible | | |
 | | | |
 
-## Cambios respecto de la Sumativa 2 (solo en el avance del 18 nov)
+## Cambios respecto de la Sumativa 2 (solo en el checkpoint del 18 nov)
 
 | Qué cambié | Qué había antes | Por qué | Evidencia (captura o commit) |
 |---|---|---|---|

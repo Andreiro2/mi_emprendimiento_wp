@@ -63,10 +63,10 @@ Trabaja con los colores y las tipografías de tu `DESIGN.md`.
 ## Si el tema propio no funcionó (pivote)
 
 1. Elige y activa un tema descargado.
-2. Reconstruye lo esencial: menú, home y las páginas del avance.
+2. Reconstruye lo esencial: menú, home y las páginas del checkpoint.
 3. En `decisiones.md`, sección "Cambios respecto de la Sumativa 2": qué intentaste con el tema propio, por qué no funcionó (captura o mensaje de error) y qué tema elegiste.
 
-Pivotear **no baja tu nota** si lo documentas. Pasado el avance (18 nov), cambiar de tema solo con acuerdo previo.
+Pivotear **no baja tu nota** si lo documentas. Pasado el checkpoint (18 nov), cambiar de tema solo con acuerdo previo.
 
 ## Qué debes tener al terminar
 

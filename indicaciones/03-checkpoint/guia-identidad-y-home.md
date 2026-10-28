@@ -135,7 +135,7 @@ git restore nombre-del-archivo.php
 ## Qué debes tener al terminar
 
 - Tu tema con la identidad aplicada y tu home armado, con commits por cada paso.
-- Una captura del home en móvil y otra en escritorio (te sirven para tu avance).
+- Una captura del home en móvil y otra en escritorio (te sirven para tu checkpoint).
 
 ## Preguntas para el inicio de la clase
 
