@@ -1,9 +1,3 @@
----
-title: "Guía: elegir, instalar y personalizar un tema descargado"
-type: exercise
-estimated_time: 20
----
-
 # Guía: elegir, instalar y personalizar un tema descargado
 
 **Para leer antes de la clase (10 minutos).** Sirve si decidiste usar un tema ya hecho, o si tu tema propio no funcionó y necesitas un plan B.

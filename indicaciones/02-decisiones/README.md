@@ -1,10 +1,4 @@
----
-title: "Pauta Sumativa 2 · Decisiones de tu sitio"
-type: exercise
-estimated_time: 60
----
-
-# Sumativa 2 · Decisiones de tu sitio (25 pts)
+# Entrega 2 · Decisiones de tu sitio (25 pts) · Mié 4 de noviembre
 
 Antes de construir tu sitio, tienes que decidir **cómo** lo vas a construir. En esta evaluación pones esas decisiones por escrito en un documento corto en Markdown: qué plugins usarás, qué páginas tendrá tu sitio, qué tema y en qué tiempos, y qué haces si algo sale mal.
 

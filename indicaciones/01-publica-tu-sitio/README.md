@@ -1,4 +1,4 @@
-# Entrega 1 · Publica tu sitio (15 pts)
+# Entrega 1 · Publica tu sitio (15 pts) · Vie 30 de octubre
 
 **Entrega:** la URL de tu sitio WordPress en InfinityFree.
 **Fecha:** viernes 30 de octubre, hasta el término del día. **Peso:** 15% de la Evaluación 03 (1 punto = 1%).

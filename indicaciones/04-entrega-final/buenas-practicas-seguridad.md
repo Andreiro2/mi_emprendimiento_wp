@@ -1,9 +1,3 @@
----
-title: "Buenas prácticas de seguridad en WordPress"
-type: theory
-estimated_time: 10
----
-
 # Buenas prácticas de seguridad en WordPress
 
 **Para leer antes de la clase (10 minutos).** No instalamos herramientas de seguridad avanzadas: aprendemos los hábitos que evitan la mayoría de los problemas.

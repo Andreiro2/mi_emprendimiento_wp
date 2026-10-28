@@ -1,9 +1,3 @@
----
-title: "Guía: construir tu tema propio paso a paso"
-type: exercise
-estimated_time: 25
----
-
 # Guía: construir tu tema propio paso a paso
 
 **Para leer antes de la clase (10 minutos).** Sirve si decidiste construir tu propio tema a partir de la plantilla base. Complementa a la guía de identidad y home (`guia-identidad-y-home.md`) y a la de entrada, páginas y SEO (`guia-entrada-paginas-y-seo.md`).

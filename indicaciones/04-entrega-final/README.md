@@ -1,4 +1,4 @@
-# Entrega 4 · Entrega final (30 pts)
+# Entrega 4 · Entrega final (30 pts) · Mié 25 de noviembre
 
 **Entrega:** la URL de tu sitio en producción, el enlace a tu repo, y tus archivos `lighthouse.md` y `plan-de-continuidad.md` (en `proyecto/`), por AVA.
 **Fecha:** miércoles 25 de noviembre, hasta el término de la clase. **Peso:** 30% de la Evaluación 03 (1 punto = 1%).

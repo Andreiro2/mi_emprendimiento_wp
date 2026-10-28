@@ -1,9 +1,3 @@
----
-title: "Guía: entrada de blog, páginas y SEO"
-type: exercise
-estimated_time: 25
----
-
 # Guía: entrada de blog, páginas y SEO
 
 **Para leer antes de la clase.** Primero lee *Escribir para la web* (`escribir-para-la-web.md`) y mira el video de Yoast SEO (versión gratis) que te asignó el curso.

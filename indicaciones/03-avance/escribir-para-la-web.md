@@ -1,9 +1,3 @@
----
-title: "Escribir para la web"
-type: theory
-estimated_time: 10
----
-
 # Escribir para la web
 
 **Para leer antes de la clase (10 minutos).** En la clase vas a escribir y publicar tus 3 entradas con estas ideas.

@@ -1,9 +1,3 @@
----
-title: "Guía: cómo investigar plugins para tu sitio"
-type: exercise
-estimated_time: 20
----
-
 # Guía: cómo investigar plugins para tu sitio
 
 **Para leer antes de la clase (10 minutos) y usar durante la investigación.** No necesitas instalar nada: se trata de decidir con datos. Necesitas **al menos 5 plugins**: **SEO** y **contacto** son obligatorios y los otros 3 los eliges según lo que necesita tu sitio (cada uno vale 2 pts). Conviene llegar al martes 3 con algunos ya investigados; en clase se completa el resto entre todos, con ayudante.

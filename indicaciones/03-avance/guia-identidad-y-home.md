@@ -1,9 +1,3 @@
----
-title: "Guía: identidad visual y home de tu tema"
-type: exercise
-estimated_time: 20
----
-
 # Guía: identidad visual y home de tu tema
 
 **Para leer antes de la clase (10 minutos).** En clase vas a hacer lo que aquí se describe.
