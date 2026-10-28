@@ -1,0 +1,80 @@
+/*
+Theme Name: Mi Tema Base
+Description: Tema en blanco para el curso Sitios Web y Landing Pages. Cambia el nombre, la descripción y el autor.
+Author: Tu nombre
+Version: 0.1
+Text Domain: mi-tema
+*/
+
+/* ==========================================================
+   1. VARIABLES — copia aquí los colores y tipografías de tu DESIGN.md
+   ========================================================== */
+:root {
+  --color-fondo: #ffffff;
+  --color-texto: #1f2933;
+  --color-principal: #2563eb;   /* TODO: color de marca */
+  --color-secundario: #f1f5f9;  /* TODO: color de apoyo */
+  --fuente-texto: system-ui, -apple-system, "Segoe UI", sans-serif;  /* TODO: tipografía */
+  --ancho-contenido: 1100px;
+  --espacio: 1.5rem;
+}
+
+/* ==========================================================
+   2. BASE
+   ========================================================== */
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--color-fondo);
+  color: var(--color-texto);
+  font-family: var(--fuente-texto);
+  line-height: 1.6;
+}
+
+img { max-width: 100%; height: auto; }
+a { color: var(--color-principal); }
+
+.contenedor {
+  max-width: var(--ancho-contenido);
+  margin: 0 auto;
+  padding: 0 var(--espacio);
+}
+
+/* ==========================================================
+   3. HEADER Y MENÚ
+   ========================================================== */
+.sitio-header { background: var(--color-secundario); padding: 1rem 0; }
+.sitio-header .contenedor { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
+.sitio-titulo { font-size: 1.5rem; font-weight: 700; text-decoration: none; }
+.menu-principal { list-style: none; display: flex; gap: 1.25rem; margin: 0; padding: 0; flex-wrap: wrap; }
+.menu-principal a { text-decoration: none; }
+
+/* ==========================================================
+   4. CONTENIDO (home, entradas, páginas)
+   ========================================================== */
+.seccion { padding: 3rem 0; }
+.seccion-destacada { background: var(--color-secundario); }
+.entrada { margin-bottom: 2.5rem; }
+.entrada-meta { font-size: 0.9rem; opacity: 0.75; }
+
+.boton {
+  display: inline-block;
+  background: var(--color-principal);
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+/* ==========================================================
+   5. FOOTER
+   ========================================================== */
+.sitio-footer { background: var(--color-secundario); padding: 2rem 0; margin-top: 3rem; font-size: 0.9rem; }
+
+/* ==========================================================
+   6. RESPONSIVE
+   ========================================================== */
+@media (max-width: 700px) {
+  .sitio-header .contenedor { flex-direction: column; align-items: flex-start; }
+}
