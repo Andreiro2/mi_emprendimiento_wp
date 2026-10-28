@@ -111,6 +111,11 @@ El objetivo de este proyecto es que puedas **respaldar tu sitio y reinstalarlo e
 
 Mi plan y mi plan B están en [`decisiones.md`](decisiones.md). (Si cambiaste de rumbo, cuéntalo aquí en una o dos líneas.)
 
+## Plan de continuidad y rendimiento
+
+- **Plan de continuidad (etapa 2 de mi web):** [`plan-de-continuidad.md`](plan-de-continuidad.md)
+- **Análisis de rendimiento con Lighthouse:** [`lighthouse.md`](lighthouse.md)
+
 ## Uso de IA
 
 - **(Herramienta):** para qué la usé y qué ajusté yo.
