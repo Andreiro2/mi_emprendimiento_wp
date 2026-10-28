@@ -6,7 +6,7 @@
 
 ## Requisito obligatorio: sitio en producción
 
-Tu sitio tiene que estar **en producción** (por ejemplo, en InfinityFree) y abrir con su URL. **No tiene puntaje, pero es obligatorio: sin sitio en producción, la Entrega 4 no se logra** (0 puntos).
+Tu sitio tiene que estar **en producción** (por ejemplo, en InfinityFree) y abrir con su URL. **Sin sitio en producción, la Entrega 4 no se logra** (0 puntos).
 
 ## Qué tienes que lograr
 
@@ -16,37 +16,42 @@ Cerrar la primera etapa de tu web, dejarla lista para migrar a un servidor profe
 
 | Qué se revisa | Puntos | Cómo se asignan |
 |---|---|---|
-| **Plan de continuidad** | 10 | Funcionalidades de la etapa 2 y por qué quedaron fuera (3) · recursos que necesitas (3) · priorización y cronograma (2) · riesgos y mitigación (2) |
-| **Formulario de contacto funcionando** | 8 | Aparece en Contacto (2) · tiene nombre, correo y mensaje (2) · muestra confirmación al enviar (2) · el mensaje llega al correo configurado (2) |
-| **README del proyecto:** documentación para respaldar y reinstalar | 6 | Contexto y requisitos (2) · cómo respaldar (2) · cómo reinstalar en otro servidor (2) |
-| **Análisis con Lighthouse** | 6 | Informe ejecutado en tu sitio (2) · análisis de los resultados (2) · mejoras propuestas o aplicadas (2) |
+| **Sitio funcionando, con el tema bien instalado** | 10 | Tema instalado y activo (4) · el sitio abre sin errores (3) · se ve tu identidad y se ve bien en celular (3) |
+| **Plan de continuidad** | 8 | Funcionalidades de la etapa 2 y por qué quedaron fuera (3) · recursos que necesitas (2) · priorización y cronograma (2) · riesgos y mitigación (1) |
+| **Formulario de contacto funcionando** | 6 | Aparece en Contacto con nombre, correo y mensaje (2) · muestra confirmación al enviar (2) · el mensaje llega al correo configurado (2) |
+| **README del proyecto:** documentación para respaldar y reinstalar | 3 | Contexto y requisitos (1) · cómo respaldar (1) · cómo reinstalar en otro servidor (1) |
+| **Análisis con Lighthouse** | 3 | Informe ejecutado en tu sitio (1) · análisis de los resultados (1) · al menos 2 mejoras propuestas o aplicadas (1) |
 | **Total** | **30** | |
 
-## 1. Plan de continuidad (10 pts)
+## 1. Sitio funcionando, con el tema bien instalado (10 pts)
 
-Es la segunda etapa de tu web. Créalo en la carpeta `proyecto/` de tu repo como `plan-de-continuidad.md`, desde la plantilla [`plantilla-plan-continuidad.md`](plantilla-plan-continuidad.md).
+Tu tema (propio o descargado) está **instalado y activo** en el sitio en producción, el sitio abre sin errores y se ve tu identidad visual, también en celular.
+
+## 2. Plan de continuidad (8 pts)
+
+Es la segunda etapa de tu web. Créalo en la carpeta `proyecto/` de tu repo como `plan-de-continuidad.md`, desde la plantilla [`plantilla-plan-continuidad.md`](plantilla-plan-continuidad.md). Es la parte más importante después del sitio.
 
 - **Funcionalidades de la etapa 2 y por qué quedaron fuera (3):** qué quisiste hacer y no pudiste (por ejemplo, WooCommerce, reservas, un newsletter), y la razón: tiempo, recursos, costo o conocimientos.
-- **Recursos que necesitas (3):** plugins (gratis o de pago), hosting o servidor, costos y lo que tendrías que aprender.
+- **Recursos que necesitas (2):** plugins (gratis o de pago), hosting o servidor, costos y lo que tendrías que aprender.
 - **Priorización y cronograma (2):** en qué orden lo harías y en cuánto tiempo.
-- **Riesgos y mitigación (2):** qué puede salir mal en la etapa 2 y qué harías.
+- **Riesgos y mitigación (1):** qué puede salir mal en la etapa 2 y qué harías.
 
-## 2. Formulario de contacto (8 pts)
+## 3. Formulario de contacto (6 pts)
 
 El formulario se prueba enviando un **mensaje de prueba**. Debe llegar al correo que configuraste.
 
-## 3. README del proyecto (6 pts)
+## 4. README del proyecto (3 pts)
 
 Es el `README.md` de la raíz de tu repo (el único archivo tuyo que no va en `proyecto/`). Otra persona debe poder seguir tus pasos para **respaldar tu sitio y reinstalarlo en cualquier servidor**. Explica el contexto de tu web, sus requisitos (WordPress, PHP, tema y plugins), cómo respaldar y cómo reinstalar.
 
-## 4. Análisis con Lighthouse (6 pts)
+## 5. Análisis con Lighthouse (3 pts)
 
 Lighthouse mide el rendimiento de tu sitio. Entregas el resultado y tu análisis en `proyecto/lighthouse.md`, desde la plantilla [`plantilla-lighthouse.md`](plantilla-lighthouse.md).
 
 - **Cómo ejecutarlo:** en Chrome, abre tu sitio en producción, entra a las herramientas de desarrollador (F12) y busca la pestaña **Lighthouse**. También puedes usar [PageSpeed Insights](https://pagespeed.web.dev/). Analiza tu página de inicio en **móvil**.
-- **Informe ejecutado (2):** las cuatro categorías (Rendimiento, Accesibilidad, Buenas prácticas y SEO) con su puntaje y una captura o el enlace del informe.
-- **Análisis (2):** qué significan tus puntajes y qué problemas encontraste.
-- **Mejoras (2):** al menos 2, propuestas o aplicadas.
+- **Informe ejecutado (1):** las cuatro categorías (Rendimiento, Accesibilidad, Buenas prácticas y SEO) con su puntaje y una captura o el enlace del informe.
+- **Análisis (1):** qué significan tus puntajes y qué problemas encontraste.
+- **Mejoras (1):** al menos 2, propuestas o aplicadas.
 
 > **No se evalúa que saques un puntaje alto**, sino que entiendas qué mide Lighthouse y qué harías para mejorar. El hosting gratuito tiene límites, y está bien reconocerlo.
 
@@ -61,7 +66,7 @@ Lighthouse mide el rendimiento de tu sitio. Entregas el resultado y tu análisis
 
 ## Antes de entregar, revisa
 
-- [ ] Mi sitio **está en producción** y abre con su URL.
+- [ ] Mi sitio **está en producción**, abre con su URL y mi tema está instalado y activo.
 - [ ] El formulario muestra confirmación y el mensaje de prueba llegó a mi correo.
 - [ ] Mi `README.md` explica el contexto de mi web, sus requisitos, cómo respaldar y cómo reinstalar en otro servidor.
 - [ ] Probé mis pasos de reinstalación (o los revisé con un compañero) y funcionan.

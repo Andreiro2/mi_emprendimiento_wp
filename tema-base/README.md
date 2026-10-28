@@ -19,7 +19,7 @@ Tema de WordPress **en blanco** para partir. Funciona tal como está: al activar
 
 ## Cómo usarlo
 
-1. Copia la carpeta, cámbiale el nombre y edita el encabezado de `style.css` (nombre del tema y autor).
+1. Copia la carpeta `tema-base/` a `proyecto/mi-tema/`, cámbiale el nombre y edita el encabezado de `style.css` (nombre del tema y autor).
 2. Ponla en `wp-content/themes/` de tu sitio en Local WP, o comprímela en `.zip` y súbela en **Apariencia > Temas > Añadir nuevo > Subir tema**.
 3. Activa el tema.
 4. Para que `front-page.php` sea tu home: **Ajustes > Lectura > Una página estática** y elige una página como inicio.

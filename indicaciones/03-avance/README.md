@@ -6,14 +6,14 @@
 
 ## Qué tienes que lograr
 
-Tener tu sitio en producción con el tema que elegiste (propio o descargado), con 2 páginas y 3 entradas, y dejar tu `decisiones.md` al día.
+Tener tu sitio en producción con el tema que elegiste (propio o descargado), con tus páginas **Inicio** y **Contacto** y 3 entradas, y dejar tu `decisiones.md` al día.
 
 ## Cómo se evalúa
 
 | Qué se revisa | Puntos | Cómo se asignan |
 |---|---|---|
 | Sitio en producción con el tema elegido activo (propio o descargado) | 10 | Tema activo (4) · el sitio abre sin errores (3) · se ve tu identidad: colores, tipografías, logo (3) |
-| 2 páginas con texto y en el menú | 6 | 3 por página: texto propio (2) y en el menú (1) |
+| Páginas **Inicio** y **Contacto** con texto y en el menú | 6 | 3 por página: texto propio (2) y en el menú (1) |
 | 3 entradas del blog con texto | 6 | 2 por entrada |
 | `decisiones.md` corregido y decisión de continuar o pivotear | 8 | Documento al día con el sitio (3) · sección «Cambios respecto de la Sumativa 2» (2) · decisión con evidencia de lo probado (3) |
 | **Total** | **30** | |
@@ -45,6 +45,6 @@ Tener tu sitio en producción con el tema que elegiste (propio o descargado), co
 
 - [ ] Mi tema (propio o descargado) está activo en InfinityFree.
 - [ ] Mi sitio abre sin errores y se ve mi identidad visual.
-- [ ] Tengo 2 páginas con texto, en el menú.
+- [ ] Tengo las páginas Inicio y Contacto con texto, en el menú.
 - [ ] Tengo 3 entradas del blog con texto.
 - [ ] Mi `decisiones.md` está al día, con la sección de cambios y mi decisión de continuar o pivotear.

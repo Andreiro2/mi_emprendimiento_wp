@@ -10,8 +10,8 @@ estimated_time: 20
 
 ## Qué vas a lograr
 
-- **Martes (hito 1):** que tu tema tenga los colores y las tipografías de tu prototipo, con su header y su footer.
-- **Miércoles (hito 2):** que tu home (`front-page.php`) se parezca a tu prototipo.
+- **Hito 1:** que tu tema tenga los colores y las tipografías de tu prototipo, con su header y su footer.
+- **Hito 2:** que tu home (`front-page.php`) se parezca a tu prototipo.
 
 ## Qué necesitas tener a mano
 
@@ -138,10 +138,10 @@ git restore nombre-del-archivo.php
 - Entiende lo que te da la IA: si no sabes qué hace una parte, pregúntale y anótalo.
 - Nunca pegues contraseñas ni claves en el chat de la IA.
 
-## Qué entregas el martes 10 de noviembre
+## Qué debes tener al terminar
 
-- El enlace a tu repo, con commits por cada paso.
-- Una captura del home en móvil y otra en escritorio.
+- Tu tema con la identidad aplicada y tu home armado, con commits por cada paso.
+- Una captura del home en móvil y otra en escritorio (te sirven para tu avance).
 
 ## Preguntas para el inicio de la clase
 

@@ -1,6 +1,6 @@
 # Plantilla: `lighthouse.md`
 
-Copia este contenido en un archivo `lighthouse.md` en la carpeta `proyecto/` de tu repo y complétalo. Vale **6 puntos** en la Entrega final.
+Copia este contenido en un archivo `lighthouse.md` en la carpeta `proyecto/` de tu repo y complétalo. Vale **3 puntos** en la Entrega final.
 
 ---
 
@@ -11,7 +11,7 @@ Copia este contenido en un archivo `lighthouse.md` en la carpeta `proyecto/` de 
 **Dispositivo:** móvil
 **Fecha del análisis:** (fecha)
 
-## 1. Resultados (2 pts)
+## 1. Resultados (1 pt)
 
 | Categoría | Puntaje (0 a 100) |
 |---|---|
@@ -22,14 +22,14 @@ Copia este contenido en un archivo `lighthouse.md` en la carpeta `proyecto/` de 
 
 **Evidencia:** (captura del informe o enlace al resultado de PageSpeed Insights)
 
-## 2. Análisis (2 pts)
+## 2. Análisis (1 pt)
 
 - **Qué significan mis puntajes:** (explica con tus palabras qué mide cada categoría y cómo te fue).
 - **Mi mejor categoría y por qué:** (...)
 - **Mi categoría más débil y por qué:** (...)
 - **Problemas que encontré en el informe:** (por ejemplo, imágenes muy pesadas, texto sin contraste suficiente, falta de descripción meta).
 
-## 3. Mejoras (2 pts)
+## 3. Mejoras (1 pt)
 
 Al menos 2, propuestas o ya aplicadas.
 

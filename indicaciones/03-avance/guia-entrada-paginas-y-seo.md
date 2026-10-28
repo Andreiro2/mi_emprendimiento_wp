@@ -10,8 +10,8 @@ estimated_time: 25
 
 ## Qué vas a lograr
 
-- **Martes (hito 3):** que tus entradas y tus categorías tengan el diseño de tu sitio, con buscador, categorías y entradas recientes.
-- **Miércoles (hito 4):** tus páginas Sobre y Contacto con el mismo estilo, y tus 3 entradas con SEO básico.
+- **Hito 3:** que tus entradas y tus categorías tengan el diseño de tu sitio, con buscador, categorías y entradas recientes.
+- **Hito 4:** tus páginas **Inicio** y **Contacto** (y las otras que elegiste) con el mismo estilo, y tus 3 entradas con SEO básico.
 
 ## La regla de oro (igual que antes)
 
@@ -82,15 +82,15 @@ Las entradas aceptan comentarios, y los comentarios atraen spam.
 
 ## Hito 4 · Páginas y SEO
 
-### Paso 5. Páginas Sobre y Contacto (`page.php`)
+### Paso 5. Páginas (`page.php`)
 
-1. Crea las páginas **Sobre nosotros** y **Contacto** (**Páginas > Añadir nueva**), con un texto breve.
+1. Crea la página **Contacto** y las otras páginas que elegiste en tu `decisiones.md` (por ejemplo, Sobre nosotros), con un texto breve. **Inicio** ya la tienes de la guía anterior.
 2. Agrégalas a tu menú (**Apariencia > Menús**).
 3. Ajusta `page.php` y `style.css` para que se vean como el resto de tu sitio.
 
-El formulario de la página Contacto lo agregas en la semana siguiente.
+El formulario de la página Contacto lo agregas con el plugin de contacto que elegiste.
 
-**Comprueba:** ambas páginas se ven bien y están en el menú. → **commit** `hito 4: páginas Sobre y Contacto`.
+**Comprueba:** Inicio, Contacto y tus otras páginas se ven bien y están en el menú. → **commit** `hito 4: páginas`.
 
 ### Paso 6. Yoast SEO
 
@@ -132,10 +132,10 @@ Cada una debe cumplir:
 | Yoast no aparece al editar | Comprueba que el plugin esté activo. |
 | La IA cambió cosas que no pediste | `git restore archivo.php` y repite el pedido diciendo "no cambies nada más". |
 
-## Qué entregas el martes 17 de noviembre
+## Qué debes tener al terminar
 
-- El enlace a tu repo, con commits por cada paso (hitos 3 y 4).
-- En tu sitio local: 3 entradas con SEO, una categoría con su listado, y las páginas Sobre y Contacto.
+- Commits por cada paso (hitos 3 y 4).
+- En tu sitio: 3 entradas con SEO, una categoría con su listado, y tus páginas Inicio y Contacto.
 
 ## Preguntas para el inicio de la clase
 

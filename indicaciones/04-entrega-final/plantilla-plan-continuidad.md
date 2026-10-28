@@ -1,6 +1,6 @@
 # Plantilla: `plan-de-continuidad.md`
 
-Copia este contenido en un archivo `plan-de-continuidad.md` en la carpeta `proyecto/` de tu repo y complétalo. Vale **10 puntos** en la Entrega final.
+Copia este contenido en un archivo `plan-de-continuidad.md` en la carpeta `proyecto/` de tu repo y complétalo. Vale **8 puntos** en la Entrega final.
 
 ---
 
@@ -20,7 +20,7 @@ Lista las funcionalidades que quisiste hacer y no pudiste. Para cada una, la raz
 | | | |
 | | | |
 
-## 2. Recursos que necesito (3 pts)
+## 2. Recursos que necesito (2 pts)
 
 | Funcionalidad | Plugin o herramienta | Gratis o de pago | Costo aproximado | Qué tendría que aprender |
 |---|---|---|---|---|
@@ -39,7 +39,7 @@ Ordena lo que harías primero y en cuánto tiempo. Puedes usar una tabla o un di
 | 2 | | | |
 | 3 | | | |
 
-## 4. Riesgos y mitigación (2 pts)
+## 4. Riesgos y mitigación (1 pt)
 
 | Riesgo | Qué haría | Cuándo se activa |
 |---|---|---|

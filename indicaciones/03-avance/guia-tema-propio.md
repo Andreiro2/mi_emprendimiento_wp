@@ -45,6 +45,19 @@ Un tema propio, pequeño, que se ve como tu emprendimiento y está **activo en t
 
 No agregues archivos nuevos sin acordarlo.
 
+## Cómo se relacionan las guías
+
+Esta guía ordena todo el trabajo en **pasos 0 a 5**. Las otras dos guías de esta carpeta detallan algunos de esos pasos y los llaman «hitos»:
+
+| Esta guía | Guía de detalle |
+|---|---|
+| Paso 0 · Instalar y activar | Solo aquí |
+| Paso 1 · Identidad visual | `guia-identidad-y-home.md`, hito 1 |
+| Paso 2 · Home | `guia-identidad-y-home.md`, hito 2 |
+| Paso 3 · Entradas y categorías | `guia-entrada-paginas-y-seo.md`, hito 3 |
+| Paso 4 · Páginas | `guia-entrada-paginas-y-seo.md`, hito 4 |
+| Paso 5 · Publicar | Solo aquí |
+
 ## Los pasos, en orden
 
 Cada paso deja el sitio funcionando. Haz un commit al terminar cada uno.
