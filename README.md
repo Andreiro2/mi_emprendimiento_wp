@@ -3,7 +3,7 @@
 > **Este README es tuyo.** Complétalo mientras construyes tu sitio y borra las instrucciones entre paréntesis. Las instrucciones del proyecto están en [`indicaciones/README.md`](indicaciones/README.md).
 
 - **Sitio en producción:** https://joyaskofran.infinityfree.me/
-- **Prototipo en Stitch:** (enlace)
+- **Prototipo en Stitch:** https://stitch.withgoogle.com/projects/17675665430477937727
 - **Repo del Parcial 02:** https://github.com/Andreiro2/mi-emprendimiento
 - **Autor/a:** Franco Reyes (sección)
 
