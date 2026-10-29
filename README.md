@@ -1,11 +1,11 @@
-# [Nombre de tu emprendimiento] · Sitio WordPress
+# Joyas Kofran · Sitio WordPress
 
 > **Este README es tuyo.** Complétalo mientras construyes tu sitio y borra las instrucciones entre paréntesis. Las instrucciones del proyecto están en [`indicaciones/README.md`](indicaciones/README.md).
 
-- **Sitio en producción:** (URL de InfinityFree)
+- **Sitio en producción:** https://joyaskofran.infinityfree.me/
 - **Prototipo en Stitch:** (enlace)
-- **Repo del Parcial 02:** (enlace a `mi-emprendimiento`)
-- **Autor/a:** (nombre y sección)
+- **Repo del Parcial 02:** https://github.com/Andreiro2/mi-emprendimiento
+- **Autor/a:** Franco Reyes (sección)
 
 ## Contexto de la web
 
@@ -104,8 +104,11 @@ El objetivo de este proyecto es que puedas **respaldar tu sitio y reinstalarlo e
 
 ## Páginas y entradas
 
-- **Páginas:** (las 5 de la fase 1)
-- **Entradas del blog:** (títulos de tus 3 entradas)
+- **Páginas:** Inicio, Nosotros, Blog
+- **Entradas del blog:**
+  - Cómo cuidar tus joyas de plata para que duren años
+  - Cómo elegir la talla de anillo correcta
+  - Ideas de regalo en plata para cada ocasión
 
 ## Cómo me organicé
 
