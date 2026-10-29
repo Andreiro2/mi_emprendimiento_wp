@@ -1,4 +1,4 @@
-# Joyas Kofran · Sitio WordPress
+# Joyas Kofran · Sitio WordPress 
 
 > **Este README es tuyo.** Complétalo mientras construyes tu sitio y borra las instrucciones entre paréntesis. Las instrucciones del proyecto están en [`indicaciones/README.md`](indicaciones/README.md).
 
