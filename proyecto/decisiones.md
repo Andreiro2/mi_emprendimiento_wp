@@ -1,6 +1,6 @@
 # Decisiones de mi sitio
 
-**Emprendimiento:** Joyas Kofran — joyas de plata ley 925 con 6 meses de garantía
+**Emprendimiento:** Joyas Kofran — joyas de plata ley 925 con 6 meses de garantía 
 **Fecha:** 4 de noviembre de 2026 · **Última corrección:** —
 
 ## 1. Plugins (10 pts)
