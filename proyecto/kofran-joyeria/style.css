@@ -130,7 +130,7 @@ a:hover { color: var(--color-principal-hover); }
 .tarjeta p { margin: 0; color: var(--color-texto-suave); }
 
 /* Categorías */
-.categoria { background: var(--color-superficie); border: 1px solid var(--color-secundario); border-radius: var(--radio); padding: 1.5rem 1rem; text-align: center; font-family: var(--fuente-titulos); font-size: 1.35rem; font-weight: 600; color: var(--color-principal); }
+.categoria { display: flex; align-items: center; justify-content: center; min-height: 96px; background: var(--color-superficie); border: 1px solid var(--color-secundario); border-radius: var(--radio); padding: 1.5rem 1rem; text-align: center; font-family: var(--fuente-titulos); font-size: 1.35rem; font-weight: 600; color: var(--color-principal); }
 
 /* Texto de la página Inicio */
 .contenido-inicio { max-width: var(--ancho-lectura); margin: 0 auto; }
@@ -199,6 +199,7 @@ a:hover { color: var(--color-principal-hover); }
 .sitio-footer h3 { color: #fff; font-size: 1.35rem; }
 .sitio-footer ul { list-style: none; margin: 0; padding: 0; }
 .sitio-footer li { margin-bottom: 0.4rem; }
+.home .sitio-footer { margin-top: 0; }
 .footer-legal { grid-column: 1 / -1; border-top: 1px solid rgba(255,255,255,0.2); padding-top: 1rem; margin: 0; opacity: 0.8; }
 
 /* ==========================================================

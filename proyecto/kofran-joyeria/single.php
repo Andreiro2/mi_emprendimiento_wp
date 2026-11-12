@@ -23,12 +23,7 @@ get_header();
 
 		<a class="volver" href="<?php echo esc_url( get_permalink( get_option( 'page_for_posts' ) ) ); ?>">← Volver al blog</a>
 
-		<?php
-		// Comentarios: quedan para una fase posterior, pero la plantilla los muestra si se activan.
-		if ( comments_open() || get_comments_number() ) {
-			comments_template();
-		}
-		?>
+		<?php // Comentarios: quedan para una fase posterior (funcionalidad «Futuro»). ?>
 	</article>
 <?php endwhile; ?>
 
