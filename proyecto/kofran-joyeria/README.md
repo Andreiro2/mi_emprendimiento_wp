@@ -1,34 +1,27 @@
-# Mi Tema Base
+# Kofran Joyería · tema propio
 
-Tema de WordPress **en blanco** para partir. Funciona tal como está: al activarlo, el sitio se ve (feo, pero funciona). Tú lo vas completando de a poco.
+Tema clásico de WordPress para [Joyas Kofran](https://joyaskofran.infinityfree.me/), hecho a partir de `tema-base/`.
 
-## Archivos
+- **Colores y tipografías:** del `DESIGN.md` del Parcial 02 (azul #1F4E79, plata #C9CDD3, fondo #FAF8F5; Cormorant Garamond e Inter).
+- **Imágenes del tema:** `assets/img/logo-kofran.jpg` (header) y `assets/img/portada-anillos.jpg` (portada del home).
 
-| Archivo | Qué hace | ¿Lo cambias? |
-|---|---|---|
-| `style.css` | Nombre del tema y todos los estilos | Sí: variables, header, footer y secciones |
-| `functions.php` | Activa menú, imagen destacada y carga el CSS | **No**, salvo que se te indique |
-| `header.php` | Cabecera y menú, se repite en todas las páginas | Sí |
-| `footer.php` | Pie de página | Sí |
-| `front-page.php` | **El home** | Sí: reconstruye tu prototipo |
-| `index.php` | Lista de entradas (respaldo) | Poco |
-| `single.php` | Una entrada de blog | Sí |
-| `archive.php` | Entradas de una categoría | Sí |
-| `page.php` | Una página (Sobre, Contacto) | Sí |
-| `assets/img/` | Carpeta para tus imágenes (logo, fotos) | Sí |
+| Archivo | Qué hace |
+|---|---|
+| `style.css` | Nombre del tema, variables de color y tipografía, y todos los estilos |
+| `functions.php` | Menú, imagen destacada y carga del CSS (sin cambios respecto de `tema-base/`) |
+| `header.php` | Barra de confianza, logo y menú principal |
+| `footer.php` | Descripción de la marca, menú e Instagram |
+| `front-page.php` | Home: portada, beneficios, tipos de pieza, texto de Inicio, últimas entradas y llamada a Contacto |
+| `index.php` | Página Blog: entradas en tarjetas |
+| `single.php` | Una entrada, con imagen destacada y enlace de vuelta al blog |
+| `archive.php` | Entradas de una categoría |
+| `page.php` | Páginas como Nosotros y Contacto |
 
-## Cómo usarlo
+## Instalar
 
-1. Copia la carpeta `tema-base/` a `proyecto/mi-tema/`, cámbiale el nombre y edita el encabezado de `style.css` (nombre del tema y autor).
-2. Ponla en `wp-content/themes/` de tu sitio en Local WP, o comprímela en `.zip` y súbela en **Apariencia > Temas > Añadir nuevo > Subir tema**.
-3. Activa el tema.
-4. Para que `front-page.php` sea tu home: **Ajustes > Lectura > Una página estática** y elige una página como inicio.
-5. Crea el menú en **Apariencia > Menús** y asígnalo a "Menú principal".
+1. Comprimir la carpeta `kofran-joyeria/` en un `.zip`.
+2. **Apariencia > Temas > Añadir nuevo > Subir tema**, instalar y activar.
+3. **Ajustes > Lectura > Una página estática**: Portada = Inicio, Entradas = Blog.
+4. **Apariencia > Menús**: crear el menú y asignarlo a «Menú principal».
 
-## Reglas
-
-- Se trabaja solo en tus archivos (con Antigravity). No edites plantillas desde el panel de WordPress.
-- Un cambio a la vez. Si funciona, haces commit. Si se rompe, vuelves al commit anterior.
-- Si ves una pantalla en blanco, es un error de PHP: revisa el último archivo que tocaste.
-
-> Pendiente de probar en Local WP antes de entregarlo a los estudiantes (no se ha probado con WordPress real).
+Probado con WordPress 7.1.4 y PHP 8.4 (InfinityFree).
