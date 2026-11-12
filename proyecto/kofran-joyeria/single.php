@@ -5,33 +5,31 @@
 get_header();
 ?>
 
-<section class="seccion">
-	<div class="contenedor">
-		<?php while ( have_posts() ) : the_post(); ?>
-			<article class="entrada">
-				<h1><?php the_title(); ?></h1>
-				<p class="entrada-meta">
-					<?php echo esc_html( get_the_date() ); ?> ·
-					<?php the_category( ', ' ); ?>
-				</p>
+<?php while ( have_posts() ) : the_post(); ?>
+	<header class="cabecera-pagina">
+		<div class="contenedor">
+			<span class="etiqueta"><?php echo esc_html( wp_strip_all_tags( get_the_category_list( ', ' ) ) ); ?></span>
+			<h1><?php the_title(); ?></h1>
+			<p class="entrada-meta"><?php echo esc_html( get_the_date() ); ?></p>
+		</div>
+	</header>
 
-				<?php if ( has_post_thumbnail() ) : ?>
-					<?php the_post_thumbnail( 'large' ); ?>
-				<?php endif; ?>
+	<article class="lectura">
+		<?php if ( has_post_thumbnail() ) : ?>
+			<div class="imagen-destacada"><?php the_post_thumbnail( 'large' ); ?></div>
+		<?php endif; ?>
 
-				<?php the_content(); ?>
-			</article>
+		<?php the_content(); ?>
 
-			<!-- TODO: aquí puedes agregar buscador, categorías y entradas recientes -->
+		<a class="volver" href="<?php echo esc_url( get_permalink( get_option( 'page_for_posts' ) ) ); ?>">← Volver al blog</a>
 
-			<?php
-			// Comentarios (aquí actúa Akismet).
-			if ( comments_open() || get_comments_number() ) {
-				comments_template();
-			}
-			?>
-		<?php endwhile; ?>
-	</div>
-</section>
+		<?php
+		// Comentarios: quedan para una fase posterior, pero la plantilla los muestra si se activan.
+		if ( comments_open() || get_comments_number() ) {
+			comments_template();
+		}
+		?>
+	</article>
+<?php endwhile; ?>
 
 <?php get_footer(); ?>
