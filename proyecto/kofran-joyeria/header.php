@@ -8,10 +8,15 @@
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
 
+<div class="barra-confianza">
+	Plata ley 925 · 6 meses de garantía · Te ayudamos a elegir tu joya
+</div>
+
 <header class="sitio-header">
 	<div class="contenedor">
-		<a class="sitio-titulo" href="<?php echo esc_url( home_url( '/' ) ); ?>">
-			<?php bloginfo( 'name' ); ?>
+		<a class="sitio-marca" href="<?php echo esc_url( home_url( '/' ) ); ?>">
+			<img class="sitio-logo" src="<?php echo esc_url( get_template_directory_uri() . '/assets/img/logo-kofran.jpg' ); ?>" alt="Logo Kofran Joyería" width="44" height="44">
+			<span class="sitio-titulo">Joyas Kofran</span>
 		</a>
 
 		<nav aria-label="Menú principal">

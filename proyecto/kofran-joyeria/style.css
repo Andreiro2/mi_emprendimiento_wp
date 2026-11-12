@@ -2,21 +2,32 @@
 Theme Name: Kofran Joyería
 Description: Tema propio de Joyas Kofran, joyería de plata ley 925. Hecho a partir de tema-base para Sitios Web y Landing Pages (DUOC UC).
 Author: Franco Reyes
-Version: 0.1
+Version: 0.2
 Text Domain: kofran-joyeria
 */
 
+/* Tipografías del DESIGN.md: Cormorant Garamond (títulos) e Inter (texto) */
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;600&display=swap");
+
 /* ==========================================================
-   1. VARIABLES — copia aquí los colores y tipografías de tu DESIGN.md
+   1. VARIABLES — colores y tipografías de mi DESIGN.md
    ========================================================== */
 :root {
-  --color-fondo: #ffffff;
-  --color-texto: #1f2933;
-  --color-principal: #2563eb;   /* TODO: color de marca */
-  --color-secundario: #f1f5f9;  /* TODO: color de apoyo */
-  --fuente-texto: system-ui, -apple-system, "Segoe UI", sans-serif;  /* TODO: tipografía */
+  --color-fondo: #FAF8F5;          /* neutral */
+  --color-superficie: #FFFFFF;     /* surface */
+  --color-texto: #1C1C1E;          /* on-surface */
+  --color-texto-suave: #5C5C5C;    /* on-surface-variant */
+  --color-principal: #1F4E79;      /* primary: azul Kofran */
+  --color-principal-hover: #183E60;
+  --color-secundario: #C9CDD3;     /* secondary: plata */
+  --color-acento: #8C5F22;         /* tertiary */
+  --color-whatsapp: #2E7D4F;       /* success */
+  --fuente-titulos: "Cormorant Garamond", Georgia, serif;
+  --fuente-texto: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
   --ancho-contenido: 1100px;
+  --ancho-lectura: 720px;
   --espacio: 1.5rem;
+  --radio: 8px;
 }
 
 /* ==========================================================
@@ -29,11 +40,24 @@ body {
   background: var(--color-fondo);
   color: var(--color-texto);
   font-family: var(--fuente-texto);
+  font-size: 16px;
   line-height: 1.6;
 }
 
-img { max-width: 100%; height: auto; }
+h1, h2, h3 {
+  font-family: var(--fuente-titulos);
+  font-weight: 600;
+  line-height: 1.15;
+  color: var(--color-principal);
+  margin: 0 0 0.75rem;
+}
+h1 { font-size: clamp(2.25rem, 5vw, 3rem); }
+h2 { font-size: clamp(1.75rem, 4vw, 2.25rem); }
+h3 { font-size: 1.5rem; }
+
+img { max-width: 100%; height: auto; display: block; }
 a { color: var(--color-principal); }
+a:hover { color: var(--color-principal-hover); }
 
 .contenedor {
   max-width: var(--ancho-contenido);
@@ -41,40 +65,156 @@ a { color: var(--color-principal); }
   padding: 0 var(--espacio);
 }
 
+.etiqueta {
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-acento);
+  margin-bottom: 0.5rem;
+}
+
 /* ==========================================================
    3. HEADER Y MENÚ
    ========================================================== */
-.sitio-header { background: var(--color-secundario); padding: 1rem 0; }
-.sitio-header .contenedor { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
-.sitio-titulo { font-size: 1.5rem; font-weight: 700; text-decoration: none; }
-.menu-principal { list-style: none; display: flex; gap: 1.25rem; margin: 0; padding: 0; flex-wrap: wrap; }
-.menu-principal a { text-decoration: none; }
+.barra-confianza {
+  background: var(--color-secundario);
+  color: var(--color-texto);
+  font-size: 0.85rem;
+  text-align: center;
+  padding: 0.5rem 1rem;
+}
+
+.sitio-header { background: var(--color-principal); color: #fff; }
+.sitio-header .contenedor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  min-height: 72px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.sitio-marca { display: flex; align-items: center; gap: 0.75rem; text-decoration: none; color: #fff; }
+.sitio-marca:hover { color: #fff; }
+.sitio-logo { width: 44px; height: 44px; object-fit: cover; border-radius: 50%; border: 1px solid rgba(255,255,255,0.4); }
+.sitio-titulo { font-family: var(--fuente-titulos); font-size: 1.75rem; font-weight: 600; letter-spacing: 0.02em; }
+
+.menu-principal { list-style: none; display: flex; gap: 1.5rem; margin: 0; padding: 0; flex-wrap: wrap; }
+.menu-principal a { color: #fff; text-decoration: none; font-weight: 600; letter-spacing: 0.03em; padding: 0.25rem 0; border-bottom: 2px solid transparent; }
+.menu-principal a:hover,
+.menu-principal .current-menu-item > a { border-bottom-color: var(--color-secundario); color: #fff; }
 
 /* ==========================================================
    4. CONTENIDO (home, entradas, páginas)
    ========================================================== */
-.seccion { padding: 3rem 0; }
-.seccion-destacada { background: var(--color-secundario); }
-.entrada { margin-bottom: 2.5rem; }
-.entrada-meta { font-size: 0.9rem; opacity: 0.75; }
+.seccion { padding: 4rem 0; }
+.seccion-destacada { background: var(--color-superficie); }
+.seccion-titulo { text-align: center; max-width: 640px; margin: 0 auto 2.5rem; }
+.seccion-titulo p { color: var(--color-texto-suave); margin: 0; }
 
+/* Portada del home */
+.portada .contenedor { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 3rem; align-items: center; }
+.portada p { font-size: 1.125rem; color: var(--color-texto-suave); max-width: 34rem; }
+.portada-imagen img { border-radius: var(--radio); aspect-ratio: 4 / 5; object-fit: cover; width: 100%; box-shadow: 0 12px 32px rgba(31, 78, 121, 0.18); }
+.botones { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 1.5rem; }
+
+/* Beneficios */
+.grilla { display: grid; gap: 1.5rem; }
+.grilla-3 { grid-template-columns: repeat(3, 1fr); }
+.grilla-5 { grid-template-columns: repeat(5, 1fr); }
+.tarjeta { background: var(--color-fondo); border: 1px solid var(--color-secundario); border-radius: var(--radio); padding: 1.5rem; }
+.tarjeta h3 { font-size: 1.4rem; }
+.tarjeta p { margin: 0; color: var(--color-texto-suave); }
+
+/* Categorías */
+.categoria { background: var(--color-superficie); border: 1px solid var(--color-secundario); border-radius: var(--radio); padding: 1.5rem 1rem; text-align: center; font-family: var(--fuente-titulos); font-size: 1.35rem; font-weight: 600; color: var(--color-principal); }
+
+/* Texto de la página Inicio */
+.contenido-inicio { max-width: var(--ancho-lectura); margin: 0 auto; }
+
+/* Tarjetas de entradas */
+.entrada-tarjeta { background: var(--color-superficie); border-radius: var(--radio); overflow: hidden; border: 1px solid var(--color-secundario); display: flex; flex-direction: column; }
+.entrada-tarjeta img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
+.entrada-tarjeta-texto { padding: 1.25rem 1.5rem 1.5rem; }
+.entrada-tarjeta h2, .entrada-tarjeta h3 { font-size: 1.5rem; }
+.entrada-tarjeta h2 a, .entrada-tarjeta h3 a { text-decoration: none; }
+.entrada-tarjeta p { color: var(--color-texto-suave); }
+.leer-mas { font-weight: 600; text-decoration: none; }
+
+.entrada { margin-bottom: 2.5rem; }
+.entrada-meta { font-size: 0.9rem; color: var(--color-texto-suave); }
+
+/* Entrada y página individual */
+.cabecera-pagina { background: var(--color-superficie); border-bottom: 1px solid var(--color-secundario); padding: 3rem 0 2rem; }
+.cabecera-pagina .contenedor, .lectura { max-width: calc(var(--ancho-lectura) + 2 * var(--espacio)); }
+.lectura { margin: 0 auto; padding: 2.5rem var(--espacio) 0; }
+.lectura .imagen-destacada img { border-radius: var(--radio); margin-bottom: 2rem; width: 100%; }
+.lectura p, .lectura li { font-size: 1.0625rem; }
+.lectura .wp-block-image img { border-radius: var(--radio); }
+.aligncenter { margin-left: auto; margin-right: auto; text-align: center; }
+.aligncenter img { margin: 0 auto; }
+.volver { display: inline-block; margin-top: 2rem; font-weight: 600; text-decoration: none; }
+
+/* Botones */
 .boton {
   display: inline-block;
   background: var(--color-principal);
   color: #fff;
   padding: 0.75rem 1.5rem;
-  border-radius: 6px;
+  border-radius: 9999px;
   text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  border: 2px solid var(--color-principal);
 }
+.boton:hover { background: var(--color-principal-hover); border-color: var(--color-principal-hover); color: #fff; }
+.boton-secundario { background: var(--color-superficie); color: var(--color-principal); }
+.boton-secundario:hover { background: var(--color-fondo); color: var(--color-principal-hover); }
+
+/* Llamada a la acción */
+.llamada { background: var(--color-principal); color: #fff; text-align: center; }
+.llamada h2 { color: #fff; }
+.llamada p { color: rgba(255,255,255,0.85); max-width: 36rem; margin: 0 auto 1.5rem; }
+.llamada .boton { background: #fff; color: var(--color-principal); border-color: #fff; }
+
+/* Formularios (Contact Form 7) */
+.lectura input[type="text"], .lectura input[type="email"], .lectura input[type="tel"], .lectura textarea {
+  width: 100%; padding: 0.75rem; border: 1px solid var(--color-secundario); border-radius: var(--radio); font: inherit; background: #fff;
+}
+.lectura input[type="submit"] { background: var(--color-principal); color: #fff; border: 0; border-radius: 9999px; padding: 0.75rem 1.75rem; font: inherit; font-weight: 600; cursor: pointer; }
+.lectura input[type="submit"]:hover { background: var(--color-principal-hover); }
+
+/* Paginación */
+.pagination, .nav-links { margin-top: 2rem; display: flex; gap: 0.5rem; }
 
 /* ==========================================================
    5. FOOTER
    ========================================================== */
-.sitio-footer { background: var(--color-secundario); padding: 2rem 0; margin-top: 3rem; font-size: 0.9rem; }
+.sitio-footer { background: var(--color-principal); color: #fff; padding: 3rem 0 2rem; margin-top: 4rem; font-size: 0.9rem; }
+.sitio-footer .contenedor { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 2rem; }
+.sitio-footer a { color: #fff; }
+.sitio-footer h3 { color: #fff; font-size: 1.35rem; }
+.sitio-footer ul { list-style: none; margin: 0; padding: 0; }
+.sitio-footer li { margin-bottom: 0.4rem; }
+.footer-legal { grid-column: 1 / -1; border-top: 1px solid rgba(255,255,255,0.2); padding-top: 1rem; margin: 0; opacity: 0.8; }
 
 /* ==========================================================
    6. RESPONSIVE
    ========================================================== */
+@media (max-width: 900px) {
+  .grilla-5 { grid-template-columns: repeat(3, 1fr); }
+  .grilla-3 { grid-template-columns: 1fr 1fr; }
+}
 @media (max-width: 700px) {
-  .sitio-header .contenedor { flex-direction: column; align-items: flex-start; }
+  .sitio-header .contenedor { flex-direction: column; align-items: flex-start; padding-top: 1rem; padding-bottom: 1rem; }
+  .portada .contenedor { grid-template-columns: 1fr; gap: 2rem; }
+  .grilla-3, .grilla-5 { grid-template-columns: 1fr 1fr; }
+  .sitio-footer .contenedor { grid-template-columns: 1fr; }
+  .seccion { padding: 3rem 0; }
+}
+@media (max-width: 480px) {
+  .grilla-3 { grid-template-columns: 1fr; }
 }
