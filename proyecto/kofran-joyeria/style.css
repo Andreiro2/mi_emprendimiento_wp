@@ -2,7 +2,7 @@
 Theme Name: Kofran Joyería
 Description: Tema propio de Joyas Kofran, joyería de plata ley 925. Hecho a partir de tema-base para Sitios Web y Landing Pages (DUOC UC).
 Author: Franco Reyes
-Version: 0.2
+Version: 0.3
 Text Domain: kofran-joyeria
 */
 
@@ -181,9 +181,10 @@ a:hover { color: var(--color-principal-hover); }
 .llamada .boton { background: #fff; color: var(--color-principal); border-color: #fff; }
 
 /* Formularios (Contact Form 7) */
-.lectura input[type="text"], .lectura input[type="email"], .lectura input[type="tel"], .lectura textarea {
+.lectura input[type="text"], .lectura input[type="email"], .lectura input[type="tel"], .lectura textarea, .lectura select {
   width: 100%; padding: 0.75rem; border: 1px solid var(--color-secundario); border-radius: var(--radio); font: inherit; background: #fff;
 }
+.lectura label { display: block; margin-bottom: 1rem; font-weight: 600; }
 .lectura input[type="submit"] { background: var(--color-principal); color: #fff; border: 0; border-radius: 9999px; padding: 0.75rem 1.75rem; font: inherit; font-weight: 600; cursor: pointer; }
 .lectura input[type="submit"]:hover { background: var(--color-principal-hover); }
 
