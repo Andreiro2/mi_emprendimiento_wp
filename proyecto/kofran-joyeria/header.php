@@ -9,7 +9,7 @@
 <?php wp_body_open(); ?>
 
 <div class="barra-confianza">
-	Plata ley 925 · 6 meses de garantía · Te ayudamos a elegir tu joya
+	Plata 925 auténtica · Te ayudamos a elegir tu joya
 </div>
 
 <header class="sitio-header">

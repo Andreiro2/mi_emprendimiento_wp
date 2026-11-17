@@ -1,6 +1,6 @@
 # Decisiones de mi sitio
 
-**Emprendimiento:** Joyas Kofran — joyas de plata ley 925 con 6 meses de garantía 
+**Emprendimiento:** Joyas Kofran — joyas de plata 925 auténtica
 **Fecha:** 4 de noviembre de 2026 · **Última corrección:** 17 de noviembre de 2026 (checkpoint)
 
 ## 1. Plugins (10 pts)
@@ -21,10 +21,10 @@ Datos revisados en la ficha oficial de cada plugin en wordpress.org el 3 de novi
 
 | # | Página | Por qué la elijo (una línea) |
 |---|---|---|
-| 1 | Inicio (obligatoria) | Es la landing: presenta la marca, la garantía y lleva a la tienda, al blog y a WhatsApp. |
+| 1 | Inicio (obligatoria) | Es la landing: presenta la marca, la plata 925 auténtica y lleva a la tienda, al blog y a WhatsApp. |
 | 2 | Contacto (obligatoria) | Responde a la funcionalidad imprescindible de captar datos para asesoría y novedades. |
 | 3 | Blog | Es la puerta de entrada desde Google del flujo de contenido y ya tiene 3 entradas publicadas. |
-| 4 | Garantía y autenticidad | Responde a la funcionalidad imprescindible de verificar que la pieza es plata ley 925 y conocer la garantía de 6 meses. |
+| 4 | Garantía y autenticidad | Responde a la funcionalidad imprescindible de verificar que la pieza es plata 925 auténtica. |
 | 5 | Preguntas frecuentes | Reúne en un lugar las dudas de Camila sobre despacho, cambios, tallas y cuidado de la plata. |
 
 **Páginas que dejo para después:** Tienda, categorías de productos, ficha de producto y carrito (la tienda queda fuera de la fase 1), Guía de tallas, Despacho y cambios, Términos y condiciones, Política de privacidad y 404.
@@ -81,6 +81,7 @@ gantt
 | Activé `kofran-joyeria` y armé el menú Inicio · Nosotros · Blog · Contacto | Twenty Twenty-Five con menú Inicio · Nosotros · Blog | Checkpoint: tema elegido activo con mi identidad y Contacto en el menú | Sitio en producción, 17 nov; commit del paso 6 |
 | Creé la página Contacto con Contact Form 7 (nombre, correo, teléfono o WhatsApp, motivo y mensaje) | No había página Contacto | Funcionalidad imprescindible de captar datos para asesoría; el motivo de consulta ayuda a responder mejor | https://joyaskofran.infinityfree.me/contacto/ |
 | Saqué el logo del texto de la página Inicio | El logo estaba dentro del contenido de Inicio | Con mi tema el logo ya aparece en el header y quedaba repetido | Página Inicio, 17 nov |
+| Reemplacé «6 meses de garantía» por «Plata 925 auténtica» en el tema, las páginas y la entrada de regalos | El sitio ofrecía 6 meses de garantía | Decidí destacar la autenticidad de la plata en vez de un plazo de garantía | Commit del 17 nov; páginas Inicio, Nosotros y la entrada de regalos |
 | Moví Yoast SEO, Joinchat, AddToAny y BackWPup al 19–23 nov | La carta Gantt decía 14–17 nov | El tema se atrasó una semana; primero dejé listos el tema y Contacto, que pide el checkpoint | Carta Gantt actualizada en este documento |
 
 **Decisión:** Continúo con mi propuesta: tema propio `kofran-joyeria`. Ya está activo en InfinityFree con mi identidad (logo, colores y fuentes del `DESIGN.md`), tiene Inicio, Nosotros, Blog y Contacto en el menú, y las 3 entradas se ven con su foto. Para la entrega final me quedan las páginas Garantía y autenticidad, y Preguntas frecuentes, y los 4 plugins que faltan.

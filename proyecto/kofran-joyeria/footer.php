@@ -4,7 +4,7 @@
 	<div class="contenedor">
 		<div>
 			<h3>Joyas Kofran</h3>
-			<p>Joyas de plata ley 925 con 6 meses de garantía, desde Valparaíso. Te acompañamos para que elijas la joya que más te guste o el regalo perfecto.</p>
+			<p>Joyas de plata 925 auténtica, desde Valparaíso. Te acompañamos para que elijas la joya que más te guste o el regalo perfecto.</p>
 		</div>
 
 		<div>

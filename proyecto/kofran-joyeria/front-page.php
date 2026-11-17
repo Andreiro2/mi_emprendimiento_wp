@@ -11,9 +11,9 @@ get_header();
 <section class="seccion portada">
 	<div class="contenedor">
 		<div>
-			<span class="etiqueta">Plata ley 925 con garantía</span>
+			<span class="etiqueta">Plata 925 auténtica</span>
 			<h1>Plata ley 925 que no pasa de moda</h1>
-			<p>Anillos, cadenas, aros, pulseras y dijes para darte un gusto o regalar bien, con 6 meses de garantía y atención cercana.</p>
+			<p>Anillos, cadenas, aros, pulseras y dijes en plata 925 auténtica, para darte un gusto o regalar bien, con atención cercana.</p>
 			<div class="botones">
 				<a class="boton" href="<?php echo esc_url( home_url( '/contacto/' ) ); ?>">Pide asesoría</a>
 				<a class="boton boton-secundario" href="<?php echo esc_url( home_url( '/blog/' ) ); ?>">Ideas para regalar</a>
@@ -34,12 +34,12 @@ get_header();
 		</div>
 		<div class="grilla grilla-3">
 			<div class="tarjeta">
-				<h3>Plata ley 925</h3>
+				<h3>Plata 925 auténtica</h3>
 				<p>Trabajamos solo con plata ley 925, el estándar de la plata fina.</p>
 			</div>
 			<div class="tarjeta">
-				<h3>6 meses de garantía</h3>
-				<p>Cada pieza está respaldada por 6 meses de garantía.</p>
+				<h3>Para regalar o regalarte</h3>
+				<p>Piezas para el día a día y para esa ocasión importante.</p>
 			</div>
 			<div class="tarjeta">
 				<h3>Atención cercana</h3>
