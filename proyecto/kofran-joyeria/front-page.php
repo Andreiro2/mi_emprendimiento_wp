@@ -20,7 +20,10 @@ get_header();
 			</div>
 		</div>
 		<div class="portada-imagen">
-			<img src="<?php echo esc_url( get_template_directory_uri() . '/assets/img/portada-anillos.jpg' ); ?>" alt="Anillos de plata 925 Joyas Kofran en mano exhibidora" width="900" height="1200">
+			<picture>
+				<source type="image/webp" srcset="<?php echo esc_url( get_template_directory_uri() . '/assets/img/portada-anillos.webp' ); ?>">
+				<img src="<?php echo esc_url( get_template_directory_uri() . '/assets/img/portada-anillos.jpg' ); ?>" alt="Anillos de plata 925 Joyas Kofran en mano exhibidora" width="640" height="853" fetchpriority="high">
+			</picture>
 		</div>
 	</div>
 </section>
