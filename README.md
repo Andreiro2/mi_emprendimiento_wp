@@ -71,7 +71,7 @@ Cómo instalar mi tema en un WordPress limpio:
 **Problemas que tuve y cómo los resolví:**
 
 - **Contact Form 7 pedía WordPress 7.1** y el sitio tenía 7.0.2: actualicé WordPress a 7.1.4 antes de instalarlo.
-- **InfinityFree gratis no envía correos con `mail()` de PHP:** instalé WP Mail SMTP y lo configuré con Gmail (smtp.gmail.com, TLS, puerto 587). Gmail exige una **contraseña de aplicación** (con la verificación en 2 pasos activa); con la contraseña normal responde «535 Username and Password not accepted».
+- **InfinityFree gratis no envía correos con `mail()` de PHP:** instalé WP Mail SMTP y lo configuré con Gmail (smtp.gmail.com, TLS, puerto 587). Gmail exige una **contraseña de aplicación** (con la verificación en 2 pasos activa); con la contraseña normal responde «535 Username and Password not accepted». **Prueba del 23 de noviembre:** el formulario mostró «¡Gracias por escribirnos!…» y el mensaje llegó a francoandreiro@gmail.com con el asunto «Joyas Kofran "Otra consulta"».
 - **BackWPup no corre en InfinityFree** por el bloqueo de WP-Cron y de las peticiones internas: documenté el respaldo manual con phpMyAdmin y el File Manager.
 - **El CSS nuevo no se veía en mi navegador** después de actualizar el tema, porque `functions.php` carga `style.css` siempre con la versión 0.1 y el navegador lo guarda en caché: se soluciona con **Ctrl+F5**, y además vacío la caché de W3 Total Cache después de cada cambio.
 
@@ -80,7 +80,7 @@ Cómo instalar mi tema en un WordPress limpio:
 | Plugin | Para qué lo uso | Gratis o de pago | Versión |
 |---|---|---|---|
 | Yoast SEO | SEO: título, meta descripción y mapa del sitio | Gratis (tiene versión Premium) | 28.9 |
-| Contact Form 7 | Formulario de la página Contacto | Gratis | 6.2.5 |
+| Contact Form 7 | Formulario de la página Contacto (mensajes de confirmación y error en español) | Gratis | 6.2.5 |
 | WP Mail SMTP | Enviar los correos del formulario por SMTP (Gmail) | Gratis (tiene versión Pro) | 4.10.4 |
 | BackWPup | Respaldo programado de archivos y base de datos | Gratis (tiene versión Pro) | 5.7.8 |
 | Loginizer | Limita los intentos de inicio de sesión (viene con InfinityFree) | Gratis | 2.1.3 |
