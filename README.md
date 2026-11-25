@@ -19,7 +19,7 @@ Es un tema clásico hecho a partir de `tema-base/`, con la paleta y las fuentes 
 
 ---
 
-## Instrucciones para instalar mi tema
+## Instrucciones para instalar mi tema 
 
 Cómo instalar mi tema en un WordPress limpio:
 
