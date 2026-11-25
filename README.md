@@ -3,7 +3,7 @@
 - **Sitio en producción:** https://joyaskofran.infinityfree.me/
 - **Prototipo en Stitch:** https://stitch.withgoogle.com/projects/17675665430477937727
 - **Repo del Parcial 02:** https://github.com/Andreiro2/mi-emprendimiento
-- **Autor/a:** Franco Reyes (sección)
+- **Autor/a:** Franco Reyes (sección 001D)
 
 Las instrucciones del curso están en [`indicaciones/README.md`](indicaciones/README.md).
 
